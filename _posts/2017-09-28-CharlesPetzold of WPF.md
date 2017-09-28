@@ -13,4 +13,4 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
-![my photo]({{ site.url }}/assets/test.jpg)
+![my photo](https://paypulse.github.io/assets/test.jpg)
