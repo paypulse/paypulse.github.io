@@ -14,4 +14,4 @@ print_hi('Tom')
 {% endhighlight %}
 
 
-![screenshot](./assets/test.jpg)
+![screenshot](./assets/close.png)
