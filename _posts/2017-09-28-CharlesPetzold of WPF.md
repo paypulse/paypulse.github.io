@@ -13,7 +13,7 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
-I just want to put this screen shot in this page. 
+I just want to put this screen shot in this page.
+[screenShot][jekyll-screenshot]
 
-
-![my photo](https://paypulse.github.io/assets/images/test.jpg)
+[jekyll-screenshot]: https://paypulse.github.io/assets/images/test.jpg
