@@ -13,4 +13,7 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
+I just want to put this screen shot in this page. 
+
+
 ![my photo](https://paypulse.github.io/assets/images/test.jpg)
