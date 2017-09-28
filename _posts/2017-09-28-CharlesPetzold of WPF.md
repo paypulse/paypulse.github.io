@@ -13,6 +13,4 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
-{% for post in site.posts %}
-<img src="./assets/img/test.jpg">
-{% endfor %}
+![my photo]({{ site.url }}/assets/test.jpg)
