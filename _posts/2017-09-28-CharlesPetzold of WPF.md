@@ -13,4 +13,6 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
+{% highlight ruby %}
 ![screenshot]({{site.url}}/assets/images/test.jpg)
+{% endhighlight %}
