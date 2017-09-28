@@ -14,6 +14,4 @@ print_hi('Tom')
 {% endhighlight %}
 
 I just want to put this screen shot in this page.
-[screenShot][jekyll-screenshot]
-
-[jekyll-screenshot]: https://paypulse.github.io/assets/images/test.jpg
+[jekyll-screenshot](https://paypulse.github.io/assets/images/test.jpg)
