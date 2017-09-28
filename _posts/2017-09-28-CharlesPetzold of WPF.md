@@ -13,4 +13,4 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
-![screenshoot](./assets/img/test.jpg)
+![screenshot](/assets/images/test.jpg)
