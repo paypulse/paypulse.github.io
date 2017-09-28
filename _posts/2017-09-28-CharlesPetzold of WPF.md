@@ -14,4 +14,4 @@ print_hi('Tom')
 {% endhighlight %}
 
 
-![screenshot](http://paypulse.github.io/assets/test.jpg)
+![screenshot](./assets/test.jpg)
