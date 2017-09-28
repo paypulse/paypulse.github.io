@@ -13,4 +13,4 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
-![page.Chapter01. Application and Window](/test.png)
+![My result screenshot]({{paypulse.github.io}}/assets/images/test.jpg)
