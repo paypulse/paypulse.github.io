@@ -13,7 +13,5 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
-{% highlight ruby %}
-test
-![screenshot](./assets/images/test.jpg)
-{% endhighlight %}
+
+![screenshot](http://paypulse.github.io/assets/images/test.jpg)
