@@ -12,3 +12,5 @@ end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
+
+{% img/close.png %}
