@@ -14,4 +14,4 @@ print_hi('Tom')
 {% endhighlight %}
 
 
-![screenshot](./assets/close.png)
+![screenshoot](https://github.com/rmsubekti/emping/raw/master/Screenshot.png)
