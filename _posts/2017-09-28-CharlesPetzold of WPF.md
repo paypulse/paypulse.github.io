@@ -15,5 +15,5 @@ print_hi('Tom')
 
 {% highlight ruby %}
 test
-![screenshot]({{site.url}}/assets/images/test.jpg)
+![screenshot](./assets/images/test.jpg)
 {% endhighlight %}
