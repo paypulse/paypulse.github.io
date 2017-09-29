@@ -32,7 +32,8 @@ gems:
   - jemoji
 
 defaults:
-    - {scope: {type: posts}, values: {layout: post, permalink: '/blog/:title'}}
+    - {scope: {type: posts}, values: {layout: post, permalink: '/WPF/:title'}}
+
 
 include:
   - _pages
@@ -44,4 +45,4 @@ exclude:
   - Gemfile.lock
 
 paginate: 12
-paginate_path: '/blog/:num'
+paginate_path: '/WPF/:num'
