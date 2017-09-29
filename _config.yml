@@ -35,7 +35,7 @@ defaults:
     - {scope: {type: posts}, values: {layout: post, permalink: '/WPF/:title'}}
 
 defaults1:
-    - {scope: {type: posts}, values: {layout: post, permalink: '/C#/:title'}}
+    - {scope: {type: nPost}, values: {layout: post, permalink: '/C#/:title'}}
 
 include:
   - _pages
@@ -45,7 +45,6 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
-
 
 paginate: 12
 paginate_path: '/WPF/:num'
