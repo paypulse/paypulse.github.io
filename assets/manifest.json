@@ -12,7 +12,6 @@ permalink: /manifest.json
 	"display": "standalone",
 	"orientation": "portrait",
 	"start_url": "{{ site.baseurl }}/WPF/",
-	"second_url":"{{ site.baseurl }}/C#/",
 	"icons": [
 		{
 			"src": "{{ site.baseurl }}/assets/favicons/android-icon-36x36.png",
