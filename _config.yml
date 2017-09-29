@@ -31,9 +31,9 @@ gems:
   - jekyll-feed
   - jemoji
 
-categories : 2
+
 defaults:
-    - {scope: {type: posts}, values: {layout: post, permalink: '/WPF/:title','/C#/:title'}}
+    - {scope: {type: posts}, values: {layout: post, permalink: '/WPF/:title'}}
 
 
 include:
