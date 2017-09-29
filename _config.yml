@@ -34,7 +34,8 @@ gems:
 defaults:
     - {scope: {type: posts}, values: {layout: post, permalink: '/WPF/:title'}}
 
-
+defaults1:
+    - {scope: {type: posts}, values: {layout: post, permalink: '/C#/:title'}}
 include:
   - _pages
 
