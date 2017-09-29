@@ -1,9 +1,9 @@
 ---
-layout: defaults1
+layout: post
 title:  "Chapter01. Application and Window"
 date:   2017-09-28 10:59:21 +0700
-categories: jekyll update
-permalink: /C#/
+categories: /C#/
+
 ---
 `Simple Example code`
 {% highlight ruby %}
