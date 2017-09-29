@@ -33,7 +33,7 @@ gems:
 
 defaults:
     - {scope: {type: posts}, values: {layout: post, permalink: '/blog/:title'}}
-    - {scope: {type: posts}, values: {layout: post, permalink: '/blog1/:title'}}
+
 
 include:
   - _pages
@@ -46,4 +46,3 @@ exclude:
 
 paginate: 12
 paginate_path: '/blog/:num'
-paginate_path: '/blog1/:num'
