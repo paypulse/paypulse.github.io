@@ -48,6 +48,3 @@ exclude:
 
 paginate: 12
 paginate_path: '/WPF/:num'
-
-paginate: 10
-paginate_path: '/C#/:num'
