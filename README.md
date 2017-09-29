@@ -1,5 +1,5 @@
 # Emping - Amp theme for jekyll
-An Amphtml theme for your jekyll blog, based on default Jekyll theme. Theme design inspired from the Jekyll [Kactus](https://github.com/nickbalestra/kactus) theme.
+An Amphtml theme for your jekyll WPF, based on default Jekyll theme. Theme design inspired from the Jekyll [Kactus](https://github.com/nickbalestra/kactus) theme.
 
 ![screenshoot](https://github.com/rmsubekti/emping/raw/master/Screenshot.png)
 
