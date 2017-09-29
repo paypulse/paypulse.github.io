@@ -33,7 +33,7 @@ gems:
 
 defaults:
     - {scope: {type: posts}, values: {layout: post, permalink: '/WPF/:title'}}
-
+    - {scope: {type: posts}, values: {layout: post1, permalink: '/C#/:title'}}
 
 include:
   - _pages
@@ -46,3 +46,6 @@ exclude:
 
 paginate: 12
 paginate_path: '/WPF/:num'
+
+paginate: 12
+paginate_path: '/C#/:num'
