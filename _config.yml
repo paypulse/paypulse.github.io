@@ -43,5 +43,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
+
 paginate: 12
 paginate_path: '/WPF/:num'
