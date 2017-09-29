@@ -36,6 +36,7 @@ defaults:
 
 defaults1:
     - {scope: {type: posts}, values: {layout: post, permalink: '/C#/:title'}}
+
 include:
   - _pages
 
