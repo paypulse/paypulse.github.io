@@ -34,6 +34,7 @@ gems:
 defaults:
     - {scope: {type: posts}, values: {layout: post, permalink: '/WPF/:title'}}
 
+
 include:
   - _pages
 
@@ -44,4 +45,5 @@ exclude:
   - Gemfile.lock
 
 paginate: 12
+paginate_path: '/WPF/:num'
 paginate_path: '/WPF/:num'
