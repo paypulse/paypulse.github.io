@@ -30,7 +30,7 @@ pagination:
     {% for page in (1.. paginator.total_pages) %}
       {% if page == paginator.page %}
         <em>{{ page }}</em>
-      {% elseif page ==1 %}
+      {% elsif page ==1 %}
         <a href="{{ '/C#/index.html' | prepend: site.baseurl }}">{{ page }}</a>
       {% else %}
         <a href="{{ site.paginate_path | prepend: '/C#/' | prepend: site.baseurl | replace: ':num',page}}"> {{ page }} </a>
