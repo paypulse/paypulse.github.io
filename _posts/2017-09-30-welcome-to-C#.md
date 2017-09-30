@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post1
 title:  "C#"
 date:   2016-09-02 10:59:21 +0700
 pagination:
