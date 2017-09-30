@@ -44,10 +44,3 @@ self.addEventListener('activate',event => {
       })
   );
 });
-
-{% for post in site.posts %}
-  <div class="post-list">
-    <h2><a href="{{post.url}}">{{ post.title }}</a></h2>
-    <p>{{ post.date | date: "%b %d , %Y"}} by {{ post.author }}</p>
-  </div>
-{% endfor %}
