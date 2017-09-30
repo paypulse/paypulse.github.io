@@ -47,6 +47,7 @@ exclude:
 paginate: 12
 paginate_path: '/WPF/:num'
 pagination:
+  paginate_path: '/C#/:num'
   enable: true
   per_page: 2
   limit: 0
