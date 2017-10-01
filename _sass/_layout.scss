@@ -64,12 +64,12 @@
     font-size: 20px;
   //  font-style: normal;
     letter-spacing: 5px;
-  //  display: none;
+    display: none;
   }
 
 
     @include media-query($on-palm) {
-    //  position: relative;
+      position: relative;
       background-color: transparent;
       border: none;
 
@@ -115,6 +115,7 @@
     padding: 10px;
     margin: 60px 0 10px 0;
   .avatar{
+    position: relative;
     width: 350px;
     height:200px;
     margin: 0 auto;
