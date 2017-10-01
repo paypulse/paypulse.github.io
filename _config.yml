@@ -32,8 +32,7 @@ gems:
   - jemoji
   - jekyll-paginate-v2
 
-defaults:
-    - {scope: {type: posts}, values: {layout: post, permalink: '/WPF/:title'}}
+
 
 permalink: /:Categories/:title/
 
