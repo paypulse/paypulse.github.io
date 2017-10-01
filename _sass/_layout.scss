@@ -143,12 +143,12 @@
  */
 .page-content {
     padding: 80px 0;
-    display: block;
+    //display: block;
+    display: none;
 }
 
 .page-heading {
-    position: relative;
-    font-size: 100px;
+    font-size: 20px;
 }
 
 .post-list {
