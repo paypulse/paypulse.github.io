@@ -1,6 +1,6 @@
 <amp-sidebar id='sidebar'
     layout="nodisplay"
-    side="right" class='sideBarC'>
+    side="right">
   <amp-img class='amp-close-image'
       src="{{ site.baseurl }}/assets/img/close.png"
       width="20"
@@ -11,9 +11,9 @@
       tabindex="0"></amp-img>
       {% for page in site.pages %}
         {% if page.title and page.navigation %}
-        <a class="page-link sideBarF " href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
         {% endif %}
       {% endfor %}
-      <a class="page-link sideBarF" href="{{ site.baseurl | append: '/WPF/'}}">WPF</a>
+      <a class="page-link" href="{{ site.baseurl | append: '/WPF/'}}">WPF</a>
 
 </amp-sidebar>
