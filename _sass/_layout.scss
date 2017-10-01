@@ -30,7 +30,8 @@
 
 .site-nav {
   float: right;
-  position: absolute;
+  //position: absolute;
+  position: relative;
   top: 18px;
   right: $spacing-unit / 2;
   border: 1px solid $grey-color-light;
@@ -60,7 +61,7 @@
   //  position: relative;
   //  left: -10;
     //border: 20px;
-  //  font-size: 20px;
+    font-size: 15px;
   //  font-style: normal;
     letter-spacing: 5px;
   //  display: none;
