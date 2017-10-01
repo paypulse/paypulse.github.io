@@ -9,6 +9,11 @@ This is Pay-Pulse tech blog. I will posting every day even at night. I will show
 How am i made about Pay-Pulse solution. Just watching it.
 ps. I hope you will like a C# and WPF.
 
+
+
+
+
+
 ---
 
 ### Site Last Generated : {{ site.time | date: "%-d %B %Y"  }}
