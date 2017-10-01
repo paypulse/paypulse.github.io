@@ -70,7 +70,8 @@
 
     @include media-query($on-palm) {
       position: relative;
-      background-color: transparent;
+    //  background-color: transparent;
+      background-color: #FFFFFF;
       border: none;
 
       .menu-icon {
