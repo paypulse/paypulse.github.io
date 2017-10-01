@@ -32,7 +32,8 @@ gems:
   - jemoji
   - jekyll-paginate-v2
 
-
+defaults:
+    - {scope: {type: posts}, values: {layout: post}}
 
 permalink: /:Categories/:title/
 
