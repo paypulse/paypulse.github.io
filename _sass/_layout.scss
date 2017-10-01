@@ -147,6 +147,7 @@
 }
 
 .page-heading {
+    position: absolute;
     font-size: 20px;
 }
 
@@ -174,7 +175,6 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
-    position: absolute;
     text-align: center;
 }
 
