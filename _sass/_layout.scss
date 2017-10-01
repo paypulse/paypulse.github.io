@@ -58,8 +58,9 @@
     clear: both;
     position: relative;
     left: 10px;
-    display: none;
+  //  display: none;
   }
+
 
     @include media-query($on-palm) {
       position: relative;
