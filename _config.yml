@@ -35,7 +35,7 @@ gems:
 defaults:
     - {scope: {type: posts}, values: {layout: post, permalink: '/WPF/:title'}}
 
-permalink: /:categories/:title/
+permalink: /:Categories/:title/
 
 include:
   - _pages
