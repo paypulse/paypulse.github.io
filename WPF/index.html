@@ -5,10 +5,10 @@ title: WPF
 avatar: true
 ---
   <ul class="post-list">
-    {% for post in paginator.posts %}
+    {% for post in site.categories.WPF %}
       <li>
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.categories }}</a>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         <p class="description">
