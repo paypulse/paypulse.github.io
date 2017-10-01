@@ -92,9 +92,6 @@
     display: block;
     padding: 5px 10px;
 
-    font-size: 30px;
-    color :#001640;
-
     &:not(:last-child) {
       margin-right: 0;
     }
@@ -104,7 +101,6 @@
   amp-sidebar {
     width: 200px;
     padding-right: 10px;
-    background-color: #FFFFFF;
   }
 
   .amp-close-image {
