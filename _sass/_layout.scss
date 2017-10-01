@@ -56,7 +56,8 @@
 
   .trigger {
     clear: both;
-    position: absolute;
+    position: relative;
+    left: 10px;
     display: none;
   }
 
