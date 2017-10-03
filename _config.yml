@@ -51,3 +51,10 @@ pagination:
   limit: 0
   sort_field: "date"
   sort_reverse: true
+
+#comment
+comment:
+  provider : facebook
+  disqus:
+    short_name : abc
+  
