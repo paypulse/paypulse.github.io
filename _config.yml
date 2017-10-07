@@ -53,8 +53,3 @@ pagination:
   sort_reverse: true
 
 #comment
-comment:
-  provider : facebook
-  disqus:
-    short_name : abc
-  
