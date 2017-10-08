@@ -13,8 +13,8 @@ You’ll find this page in your `_pages` directory. Go ahead and edit it and re-
 
 ---
 ## Who made Pay-pulse
-{% for post in site.posts %}
-  <img src="https://paypulse.github.io/assets/images/test.jpg"/>  
+{% for post in site.posts limit:1 %}
+  <img src="https://paypulse.github.io/assets/images/test.jpg" width = "20" height ="20" />  
 {% endfor %}
 
 
