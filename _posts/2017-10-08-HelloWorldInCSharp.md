@@ -5,8 +5,8 @@ date:   2017-10-08 10:59:21 +0700
 categories: CSharp
 ---
 `Hello, World`
-I used a visual studio 2012 version IDE.
 
+I used a visual studio 2012 version IDE.
 {% highlight ruby %}
 using System;
 
