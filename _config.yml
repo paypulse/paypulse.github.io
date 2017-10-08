@@ -59,3 +59,7 @@ disqus_shortname: paypulse.github.io
 #google map
 plugins:
   - jekyll-maps
+
+maps:
+  google:
+    api_key: AIzaSyCyGB5JJ66YXK-XB6mdpgVI84lF0hEtZMg
