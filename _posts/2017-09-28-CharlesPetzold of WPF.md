@@ -1,17 +1,30 @@
 ---
 layout: post
-title:  "Chapter01. Application and Window"
-date:   2017-09-28 10:59:21 +0700
+title:  "1.Hello, World!"
+date:   2017-10-08 10:59:21 +0700
 categories: CSharp
 ---
-`Simple Example code`
+`Hello, World`
+I used a visual studio 2012 version IDE.
+
 {% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+using System;
+
+namespace HelloWorld
+{
+    class HelloWorld
+    {
+        //프로그램 실행이 시작 되는 곳
+        static void Main(string[] args)
+        {
+            Console.WriteLine("HelloWorld");
+        }
+    }
+}
 {% endhighlight %}
 
-I just want to put this screen shot in this page.
-[jekyll-screenshot](https://paypulse.github.io/assets/images/test.jpg)
+---
+[result]
+{% for post in site.posts limit:1 %}
+  <img src="https://paypulse.github.io/assets/images/HelloWorld.png" width = "20" height ="20" />  
+{% endfor %}
