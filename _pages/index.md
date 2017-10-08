@@ -14,7 +14,7 @@ You’ll find this page in your `_pages` directory. Go ahead and edit it and re-
 ---
 ## Who made Pay-pulse
 {% for post %}
-  <img src="../images/test.jpg" alt="Smiley face" height="42" width="42">
+  <img src=https://paypulse.github.io/assets/images/test.jpg">
 {% end for %}
 
 
