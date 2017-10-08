@@ -9,7 +9,8 @@ Accurancy, Humanity, sincerity.
 ---
 
 ## Why did i make the Pay-pulse company.
-You’ll find this page in your `_pages` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+We need more good solution for a measuring instrument and we want to introduce foreign start-up company and sell their product to Korea. so, we made the company.
 
 ---
 ## Who made the Pay-pulse company.
@@ -17,8 +18,14 @@ You’ll find this page in your `_pages` directory. Go ahead and edit it and re-
   <img src="https://paypulse.github.io/assets/images/test.jpg" width = "20" height ="20" />  
 {% endfor %}
 
+
+
 ---
 ## When is the birth day of Pay-pulse company.
 
+Individual business , April 3 2017.
+
 ---
 ## Where is the Pay-pulse company.
+
+We are located in South Korea , Byeollae Awesome factory. 
