@@ -5,7 +5,7 @@ permalink: /
 ---
 ## What is most important things in the Pay-pulse company.
 
-#Accurancy, Humanity, sincerity. 
+Accurancy, Humanity, sincerity. 
 ---
 
 ## Why did i make the Pay-pulse company.
