@@ -13,7 +13,9 @@ You’ll find this page in your `_pages` directory. Go ahead and edit it and re-
 
 ---
 ## Who made Pay-pulse
-[jekyll-screenshot](https://paypulse.github.io/assets/images/test.jpg)
+{% for post in site.posts %}
+  <img src="https://paypulse.github.io/assets/images/test.jpg"/>  
+{% endfor %}
 
 
 
