@@ -34,3 +34,5 @@ Individual business , April 3 2017.
 ## Where is the Pay-pulse company.
 
 We are located in South Korea , Byeollae Awesome factory.
+
+{% google_map src="_pages/index.md" %}
