@@ -24,6 +24,3 @@ You’ll find this page in your `_pages` directory. Go ahead and edit it and re-
 
 ---
 ## Where is Pay-pulse
-
----
-## How did i make Pay-pulse
