@@ -36,7 +36,7 @@ Individual business , April 3 2017.
 We are located in South Korea , Byeollae Awesome factory.
 
 {% for post in site.posts limit:1 %}
-  {% google_map show_popup="false" zoom="10" %}
+  {% google_map %}
 
 
 {% endfor %}
