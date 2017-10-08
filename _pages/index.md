@@ -2,6 +2,11 @@
 layout: default
 avatar: true
 permalink: /
+url: https://google.fr
+location:
+  latitude: 51.5285582
+  longitude: -0.2416807
+
 ---
 ## What is most important things in the Pay-pulse company.
 Accurancy, Humanity, sincerity.
@@ -30,6 +35,4 @@ Individual business , April 3 2017.
 
 We are located in South Korea , Byeollae Awesome factory.
 
-{% for post in site.posts limite:1 %}
-
-{% endfor %}
+{% google_map %}
