@@ -2,10 +2,7 @@
 layout: default
 avatar: true
 permalink: /
-url: https://google.fr
-location:
-  latitude: 51.5285582
-  longitude: -0.2416807
+
 
 ---
 ## What is most important things in the Pay-pulse company.
@@ -34,7 +31,3 @@ Individual business , April 3 2017.
 ## Where is the Pay-pulse company.
 
 We are located in South Korea , Byeollae Awesome factory.
-
-{% if page.locations %}
-  <img src="http://maps.googleapis.com/maps/api/staticmap?{% for location in page.locations %}{% if forloop.first %}center={{location}}&markers=color:blue%7C{{location}}{% else %}&markers=color:blue%7C{{location}}{% endif %}{% endfor %}&zoom={% if page.zoom %}{{page.zoom}}{% else %}13{% endif %}&size=300x200&scale=2&sensor=false&visual_refresh=true" alt="">
-{% endif %}
