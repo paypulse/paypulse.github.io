@@ -38,4 +38,4 @@ We are located in South Korea , Byeollae Awesome factory.
 {% if page.locations %}
 
 
-{% endfor %}
+{% endif %}
