@@ -31,6 +31,7 @@ gems:
   - jekyll-feed
   - jemoji
   - jekyll-paginate-v2
+  - jekyll-maps
 
 permalink: /:Categories/:title/
 
@@ -54,3 +55,7 @@ pagination:
 
 #comment
 disqus_shortname: paypulse.github.io
+
+#google map
+plugins:
+  - jekyll-maps
