@@ -10,8 +10,8 @@ How am i made about Pay-Pulse solution. Just watching it.
 ps. I hope you will like a C# and WPF.
 
 `Contact us`
-[Jekyll](shinapp7@gmail.com)
-[Jekyll](mobile: 010-5153-2163)
+[Email](shinapp7@gmail.com) ,
+[Phone](010-5153-2163)
 
 ---
 
