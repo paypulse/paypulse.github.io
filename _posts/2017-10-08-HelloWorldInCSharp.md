@@ -28,3 +28,7 @@ namespace HelloWorld
 {% for post in site.posts limit:1 %}
 <img src="https://paypulse.github.io/assets/images/HelloWorld.png" width="460" height="175"/>  
 {% endfor %}
+
+---
+
+`Window 탐색기를 실행해서 실행 파일이 제대로 생성 되었는지 확인 해 보자. `
