@@ -24,7 +24,7 @@ namespace HelloWorld
 {% endhighlight %}
 
 ---
-###[result]
+[result]
 {% for post in site.posts limit:1 %}
-<img src="https://paypulse.github.io/assets/images/HelloWorld.png"/>  
+<img src="https://paypulse.github.io/assets/images/HelloWorld.png" width="460" height="175"/>  
 {% endfor %}
