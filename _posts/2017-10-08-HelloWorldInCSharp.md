@@ -26,5 +26,5 @@ namespace HelloWorld
 ---
 [result]
 {% for post in site.posts limit:1 %}
-  <img src="https://paypulse.github.io/assets/images/HelloWorld.png" width = "20", height ="20" />  
+    <img src="https://paypulse.github.io/assets/images/career.png" width = "20" height ="20" />  
 {% endfor %}
