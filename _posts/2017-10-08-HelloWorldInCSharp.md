@@ -32,3 +32,6 @@ namespace HelloWorld
 ---
 
 `Window 탐색기를 실행해서 실행 파일이 제대로 생성 되었는지 확인 해 보자. `
+{% for post in site.posts limit:1 %}
+<img src="https://paypulse.github.io/assets/images/helloworldExe.png" width="779" height="208"/>
+{% endfor %}
