@@ -37,7 +37,7 @@ namespace HelloWorld
 
 ---
 
-` Let's run to HelloWorld.exe file to use a CMD `
+` How to run a HelloWorld.exe file to use a CMD `
 1. windows + R [enter]
 2. cmd [enter]
 3. Go to HelloWorld.exe folder
@@ -47,6 +47,8 @@ namespace HelloWorld
 ---
 `Let's study about HelloWorld code`
 {% highlight ruby %}
+
+//Use a System class in System namespace to inform Compiler.
 using System;
 
 namespace HelloWorld
@@ -61,3 +63,7 @@ namespace HelloWorld
     }
 }
 {% endhighlight %}
+
+[namespace] : namesapce is helped to you about group same class, struct, interface,delegate, enum etc.
+namespace + {class is belong to namespace.}
+---
