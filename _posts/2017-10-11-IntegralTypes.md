@@ -60,14 +60,41 @@ char  : 유니코드 문자, 2byte (16bit)
 
 
 ---
-`Integral Type`
+`[EX] : sbyte/byte, short/ushort, int/uint, long/ulong`
 
 {% highlight ruby %}
+using System;
 
+namespace Blog1
+{
+    class MainApp
+    {
+        static void Main(string[] args)
+        {
+            sbyte a = -10;
+            byte b = 40;
+            Console.WriteLine("a ={0}, b={1}", a,b);
+
+            short c = -30000;
+            ushort d = 60000;
+            Console.WriteLine("c={0}, d={1}",c,d);
+
+            int e = -10000000;
+            uint f = 300000000;
+            Console.WriteLine("e={0}, f={1}",e,f);
+
+            long g = -500000000000;
+            ulong h = 2000000000000000000;
+            Console.WriteLine("g={0}, h={1}",g,h);
+            Console.WriteLine();
+
+        }
+    }
+}
 {% endhighlight %}
 
 ---
 [result]
 {% for post in site.posts limit:1 %}
-
+<img src="https://paypulse.github.io/assets/images/integralType.png" width="430" height="92"/>
 {% endfor %}
