@@ -65,5 +65,9 @@ namespace HelloWorld
 {% endhighlight %}
 
 [namespace] : namesapce is helped to you about group same class, struct, interface,delegate, enum etc.
-namespace + {class is belong to namespace.}
+
+namespace + {class is belong to namespace}
+
+
+
 ---
