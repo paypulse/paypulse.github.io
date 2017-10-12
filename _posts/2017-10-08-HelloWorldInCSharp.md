@@ -67,7 +67,7 @@ namespace HelloWorld
 [namespace] : namesapce is helped to you about group same class, struct, interface,delegate, enum etc.
 
 namespace + {class is belong to namespace}
-
-
-
 ---
+`What is class?`
+
+class makes up composed C# program as a basic unit, data and method. 
