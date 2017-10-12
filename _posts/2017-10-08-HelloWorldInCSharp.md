@@ -14,7 +14,7 @@ namespace HelloWorld
 {
     class HelloWorld
     {
-        //프로그램 실행이 시작 되는 곳
+        //Program start.
         static void Main(string[] args)
         {
             Console.WriteLine("HelloWorld");
@@ -30,17 +30,34 @@ namespace HelloWorld
 {% endfor %}
 
 ---
-
-`Window 탐색기를 실행해서 실행 파일이 제대로 생성 되었는지 확인 해 보자. `
+`Check out the exe file to run a windows explore.`
 {% for post in site.posts limit:1 %}
 <img src="https://paypulse.github.io/assets/images/helloworldExe.png" width="779" height="208"/>
 {% endfor %}
 
 ---
 
-` IDE ctrl + f5 가 아닌  명령 프롬프트에서 HelloWorld.exe를 실행 `
+` Let's run to HelloWorld.exe file to use a CMD `
+1. windows + R [enter]
+2. cmd [enter]
+3. Go to HelloWorld.exe folder
+4. [project name]  C#  [enter]
+5. This exe file is propery good works.
 
-1. windows + R
-2. cmd
-3. HelloWorld.exe가 있는 경로로 간다.
-4. [project 명]  C# 을 입력 해야 예제 실행 파일이 정상적으로 실행이 된다.
+---
+`Let's study about HelloWorld code`
+{% highlight ruby %}
+using System;
+
+namespace HelloWorld
+{
+    class HelloWorld
+    {
+        //Program start.
+        static void Main(string[] args)
+        {
+            Console.WriteLine("HelloWorld");
+        }
+    }
+}
+{% endhighlight %}
