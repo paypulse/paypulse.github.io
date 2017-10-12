@@ -35,3 +35,12 @@ namespace HelloWorld
 {% for post in site.posts limit:1 %}
 <img src="https://paypulse.github.io/assets/images/helloworldExe.png" width="779" height="208"/>
 {% endfor %}
+
+---
+
+` IDE ctrl + f5 가 아닌  명령 프롬프트에서 HelloWorld.exe를 실행 `
+
+1. windows + R
+2. cmd
+3. HelloWorld.exe가 있는 경로로 간다.
+4. [project 명]  C# 을 입력 해야 예제 실행 파일이 정상적으로 실행이 된다.
