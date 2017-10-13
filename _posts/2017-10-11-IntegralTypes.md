@@ -111,6 +111,32 @@ namespace Blog1
 
 {% highlight ruby %}
 
-{% endhighlight %}
+using System;
 
----
+/*Overflow example*/
+
+namespace Blog2
+{
+    class MainApp
+    {
+        static void Main(string[] args)
+        {
+            uint a = uint.MaxValue;
+            Console.WriteLine(a);
+
+            a = a + 1;
+            //uint 가 가질 수 있는 최저값으로 출력이 된다.
+            Console.WriteLine(a);
+
+            //uint.MaxValue 대신에 int.MaxValue를 사용해보자
+            int b = int.MaxValue;
+            Console.WriteLine(b);
+
+            b = b + 1;
+            Console.WriteLine(b);
+
+        }
+    }
+}
+
+{% endhighlight %}
