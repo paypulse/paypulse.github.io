@@ -285,6 +285,7 @@ namespace Blog2
 
 ---
 `박싱과 언박싱`
+
 object 형식이 모든 데이터 형식을 담을 수 있는데,이러한 매커니즘을 박싱, 언박싱이라 한다.
 
 object 형식은 참조 형식이기 때문에, 힙에 데이터를 할당 한다.
@@ -294,4 +295,44 @@ object 형식은 참조 형식이기 때문에, 힙에 데이터를 할당 한�
 <img src="https://paypulse.github.io/assets/images/boxing.png" width="339" height="254"/>
 {% endfor %}
 
----
+a라는 변수는 힙에 할당 되어 있고, 20은 stack에 할당 되어, a가 20을 가리키고 있다.
+
+[if]
+object a = 20;
+int b = (int) a;
+
+b는 a가 참조하고 있는 메모리로 부터 값을 복사하는 중이고, 이때, 박싱 되어 있는 값을 꺼내 값 형식 변수에 저장하는
+과정을 일컬어 언박싱이라고 한다. - 형변환을 하는것을 언박싱 한다고 하나 보다-
+
+{% highlight ruby %}
+
+using System;
+
+namespace Blog2
+{
+    class MainApp
+    {
+        static void Main(string[] args)
+        {
+            int a = 123;
+            object b = (object)a; //int a에 담긴 값을 boxing후 heap에 저장
+            int c = (int)b; //b에 담긴 값을 언박싱 후 stack에 저장
+
+            double x = 3.1414213;
+            object y = x; // object 형식에 저장할땐 형식 변환 연산자를 지정하지 않으면, 암시적으로 object 형으로 변환
+            double z = (double)y; //y에 담긴 값을 다시 언박싱 후 stack에 저장
+
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.WriteLine(c);
+
+            Console.WriteLine(x);
+            Console.WriteLine(y);
+            Console.WriteLine(z);
+
+
+        }
+    }
+}
+
+{% endhighlight %}
