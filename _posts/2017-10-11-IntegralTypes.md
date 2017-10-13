@@ -140,3 +140,48 @@ namespace Blog2
 }
 
 {% endhighlight %}
+
+---
+`부동 소수점 형식(Floating Point Types)`
+
+부동 소수점 형식은 정수 뿐 아니라 유리수를 포함하는 실수 영역의 데이터를 다룬다.
+부동 소수점 형식에는  float , double 두가지 있다.
+
+`float : Floating Point`
+단일 정밀도 부동 소수점 형식(7개의 자릿수만 다룸), 4byte(32bit), -3.402823e38 ~ 3.402823e38
+float 형식은 숫자 뒤에 f를 붙이면, float 형식으로 간주.
+
+`double : Double Precision Floating Point Format`
+복수 정밀도 부동 소수점 형식(15~16개의 자릿수를 다룸), 8byte(64bit), -1.79769313486232e308~1.79769313486232e308
+숫자 뒤에 아무 것도 없으면, double 형식으로 간주.
+
+`decimal `
+decimal 역시 실수를 다루는 데이터 형식.
+29자리 데이터를 표현할 수 있는 소수 형식, 16byte(128bit),
+숫자 뒤에 m을 붙이면, deciaml 형식으로 간주
+
+double이 float에 비해 메모리를 두 배로 사용하지만, 그 만큼 float에 비해 데이터 손실이 적기 때문이다.
+decimal의 한계 마저도 넘어서는 데이터를 처리해야 한다면, 그때는 그 알고리즘을 담은 복합 데이터 형식을 직접 작성해야 한다. 회계 프로그램이나 계산기를 프로그래밍 할때 float, double 보다는 decimal이 더 적합하다.
+
+{% highlight ruby %}
+
+using System;
+
+namespace Blog2
+{
+    class MainApp
+    {
+        static void Main(string[] args)
+        {
+            float   a = 3.141592653589793238462643383279f;
+            double  b = 3.141592653589793238462643383279;
+            decimal c = 3.141592653589793238462643383279m;
+
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.WriteLine(c);
+        }
+    }
+}
+
+{% endhighlight %}
