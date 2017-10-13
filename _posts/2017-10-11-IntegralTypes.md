@@ -369,5 +369,40 @@ namespace Blog2
 {% endhighlight %}
 
 sbyte는 2byte 인데 4byte짜리를 형변환시 오버 플로우가 발생 한다.
+부호가 있는 경우 , 가장 최소 값은 - 범위의 값이 나온다.
 
 ---
+`크기가 서로 다른 부동 소수점 형식 사이의 변환`
+
+정수 형식 사이의 변환 처럼 오버플로우 현상은 일어 나지 않지만, 정밀성에 손상을 입는다.
+
+{% highlight ruby %}
+using System;
+
+namespace Blog2
+{
+    class MainApp
+    {
+        static void Main(string[] args)
+        {
+            float a = 69.6875f;
+            Console.WriteLine("a :{0}",a);
+
+            double b = (double)a;
+            Console.WriteLine("b :{0}",b);
+
+            Console.WriteLine("69.6875 == b:{0}",69.6875 == b);
+
+            float x = 0.1f;
+            Console.WriteLine("x :{0}", x);
+
+            double y = (double)x;
+            Console.WriteLine("y :{0}", y);
+
+            Console.WriteLine("0.1 == y : {0}", 0.1 == y); //false가 출력이 된다.
+
+        }
+    }
+}
+
+{% endhighlight %}
