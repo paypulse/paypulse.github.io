@@ -94,12 +94,6 @@ namespace Blog1
 {% endhighlight %}
 
 ---
-[result]
-{% for post in site.posts limit:1 %}
-<img src="https://paypulse.github.io/assets/images/integralType.png" width="430" height="92"/>
-{% endfor %}
-
----
 `Data Overflow`
 
 부호가 없는 정수 일 경우, overflow시 0값으로 각 정수형 자료형이 가질 수 있는 최소 값이 되지만 부호가 있는 경우,
