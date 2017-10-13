@@ -330,3 +330,44 @@ namespace Blog2
 }
 
 {% endhighlight %}
+
+---
+`데이터 형식 바꾸기`
+
+변수를 다른 데이터 형식의 변수에 옮겨 담는 것을 형식 변환(Type Conversion)이라고 한다.
+박싱, 언박싱도 값 형식과 참조 형식 간의 형식 변환이라 할 수 있다.
+
+`크기가 서로 다른 정수 형식 사이의 변환`
+
+[EX] : 1byte 크기의 sbyte 형식과 4byte 크기의 int 형식 사이의 형식 변환 예제
+
+{% highlight ruby %}
+using System;
+
+namespace Blog2
+{
+    class MainApp
+    {
+        static void Main(string[] args)
+        {
+            sbyte a = 127;
+            Console.WriteLine(a);
+
+            int b = (int)a;
+            Console.WriteLine(b);
+
+            int x = 128;
+            Console.WriteLine(x);
+
+            sbyte y = (sbyte)x;  //오버 플로우 발생
+            Console.WriteLine(y);
+
+
+        }
+    }
+}
+{% endhighlight %}
+
+sbyte는 2byte 인데 4byte짜리를 형변환시 오버 플로우가 발생 한다.
+
+---
