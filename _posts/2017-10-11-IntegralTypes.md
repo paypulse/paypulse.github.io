@@ -98,3 +98,19 @@ namespace Blog1
 {% for post in site.posts limit:1 %}
 <img src="https://paypulse.github.io/assets/images/integralType.png" width="430" height="92"/>
 {% endfor %}
+
+---
+`Data Overflow`
+
+부호가 없는 정수 일 경우, overflow시 0값으로 각 정수형 자료형이 가질 수 있는 최소 값이 되지만 부호가 있는 경우,
+가장 최소 값은 - 범위의 값이 나온다.
+
+각 데이터 형식의 최대 값을 넘어가는 데이터를 저장 할때는 오버 플로우가 일어나고, 최저값보다 작은 데이터를 저장하면 언더 플로우가 일어 난다.
+
+데이터를 다루는 코드를 작성 할때는 다루려는 데이터의 범위와 변수의 형식을 적절하게 맞춰 주는 것이 필요.
+
+{% highlight ruby %}
+
+{% endhighlight %}
+
+---
