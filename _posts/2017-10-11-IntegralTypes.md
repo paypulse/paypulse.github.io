@@ -225,3 +225,73 @@ namespace Blog2
 }
 
 {% endhighlight %}
+
+---
+`논리 형식 :Boolean Types`
+
+논리 형식이 다루는 데이터는 True, False 딱 두가지 입니다.
+논리 형식, 1byte(8bit)
+
+{% highlight ruby %}
+using System;
+
+namespace Blog2
+{
+    class MainApp
+    {
+        static void Main(string[] args)
+        {
+            bool a = true;
+            bool b = false;
+
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+        }
+    }
+}
+
+{% endhighlight %}
+
+---
+`object 형식 `
+
+object 형식은 어떤 물건(데이터)이든지 다룰 수 있는 데이터 형식이라 말할 수 있습니다.
+object는 모든 데이터 형식의 조상이 된다. 따라서 컴파일러는 어떤 형식의 데이터라도 object에 담아 처리 할 수 있다.
+
+{% highlight ruby %}
+
+using System;
+
+namespace Blog2
+{
+    class MainApp
+    {
+        static void Main(string[] args)
+        {
+            object a = 123;
+            object b = 3.141592653589793238462643383279m;
+            object c = true;
+            object d = "안녕하세요";
+
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.WriteLine(c);
+            Console.WriteLine(d);
+        }
+    }
+}
+
+{% endhighlight %}
+
+---
+`박싱과 언박싱`
+object 형식이 모든 데이터 형식을 담을 수 있는데,이러한 매커니즘을 박싱, 언박싱이라 한다.
+
+object 형식은 참조 형식이기 때문에, 힙에 데이터를 할당 한다.
+값 형식의 데이터를 힙에 할당 하기 위한 박싱 기능을 제공 한다.
+
+{% for post in site.posts limit:1 %}
+<img src="https://paypulse.github.io/assets/images/boxing.png" width="339" height="254"/>
+{% endfor %}
+
+---
