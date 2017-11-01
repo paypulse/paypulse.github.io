@@ -31,4 +31,7 @@ Individual business , April 3 2017.
 ---
 ## Where is the Pay-pulse company.
 
-We are located in South Korea , Byeollae Awesome factory.
+We are located in
+ 2, Toegye-ro 36-gil, Jung-gu, Seoul, Republic of Korea
+
+ zip code : 04626
