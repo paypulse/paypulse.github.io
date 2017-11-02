@@ -7,7 +7,7 @@ categories: SUS
 `I will prepare for the next week seminar`
 
 I will prepare for the next week seminar. beacuse, I am so nervous.
-I have studied presentation or practice conversation english since last year.
+I have not studied presentation or practice conversation english since last year.
 omg. It is almost one year ago, but I have to do . I don't want to give it up.
 so, i will prepare for some kinds of convsation question about my own company.
 
