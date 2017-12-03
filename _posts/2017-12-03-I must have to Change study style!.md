@@ -6,8 +6,8 @@ categories: CSharp
 ---
 `C# programming`
 
-I realize that i must chnage to study style.
-sometimes, I only study book everyday and every month.
+I realize that i must change to study style.
+sometimes, I only study book everyday and even month.
 but it is not finished and boring and sometimes i felt period is over.
 so, I decide to change posting style.
 
