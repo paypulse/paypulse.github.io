@@ -4,7 +4,7 @@ title:  "C Sharp programming"
 date:   2017-12-03 10:59:21 +0700
 categories: CSharp
 ---
-`C# programming`
+`Change the Study style`
 
 I realize that i must change to study style.
 sometimes, I only study book everyday and even month.
@@ -26,4 +26,4 @@ The only way is crazy efforts, this will give to me a better life and find a sel
 I am not a pretty but I can be a seductive woman. Having a competitive to ability , passion and vision.
 
 This is not impossible, just do not lazy and give it up.
-lazy is sweet but result is bitter. 
+lazy is sweet but result is bitter.
