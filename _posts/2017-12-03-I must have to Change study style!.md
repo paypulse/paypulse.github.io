@@ -19,8 +19,11 @@ I will write about purpose on every posting.
 5. result of example. --> this will be a animation things.
 
 I am really excited to make this posting.
-I need to passion for code before posting . when many people see my blog, They have to get some kinds of impact.
+I need to passion for code before posting. If many people will see my blog, They would have to get some kinds of impact.
 
-The only way is crazy efforts, this is will give to me a better life and find a self-realization.
+The only way is crazy efforts, this will give to me a better life and find a self-realization.
 
 I am not a pretty but I can be a seductive woman. Having a competitive to ability , passion and vision.
+
+This is not impossible, just do not lazy and give it up.
+lazy is sweet but result is bitter. 
