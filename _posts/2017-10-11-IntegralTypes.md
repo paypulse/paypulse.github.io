@@ -574,6 +574,9 @@ namespace BlogPosting
 
 [열거 형식을 기반으로 변수로 만들고, 이를 사용 하는 예제 프로그램]
 
+열거 형식의 각 요소는 기본적으로 컴파일러 로부터 값을 자동으로 할당 받지만, 프로그래머가 값을 직접 대입 할 수도 있다.
+
+
 {% highlight ruby %}
 
 using System;
@@ -604,4 +607,8 @@ namespace BlogPosting
 {% endlight %}
 
 ---
-`상수와 열거 형식`
+`Nullable 형식`
+
+0이 아닌 비어 있는 변수, 즉, null 상태인 변수, 변수에게 할당된 메모리 공간을 비워 둘 수 있도록 Nullable 형식을 사용하면 된다. 참조 형식은 사용 할 수 없다.
+
+[Nullable 형식은 두가지 속성]
