@@ -248,5 +248,6 @@
 a:link {text-decoration: none; color:#001640;}
 
 /*table*/
-table {width:100%; border-collapse: collapse;}
-th, td {padding:10px;}
+
+table {width:100%; border-collapse: collapse; text-align: center;}
+th, td {padding:10px; text-align: center;;}
