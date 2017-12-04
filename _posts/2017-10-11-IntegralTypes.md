@@ -468,5 +468,140 @@ namespace Blog2
 ---
 `문자열을 숫자로, 숫자를 문자열로 변환`
 
-"12345"는 문자열 이지만, 12345는 숫자.
-1. 문자열을 숫자로 바꾸려면?
+"12345"는 문자열 이지만, 12345는 숫자. 우리가 그동안 알고 있었던,
+암묵적인 형변환으로 시도 해봤자 compile 조차 안된다.
+
+문자열을 숫자로 변환시 필요 메소드 : Parse(), Convert.ToInt32or64..()
+
+숫자를 문자로 변화시 필요 메소드   : ToString()
+
+{% highlight ruby %}
+using System;
+
+namespace stringtonumber
+{
+    class MainApp
+    {
+        static void Main(string[] args)
+        {
+            //정수형 to 문자
+            int a = 123;
+            string b = a.ToString();
+            Console.WriteLine(b);
+
+            //부동 소수점형 to 문자
+            float c = 3.14f;
+            string d = c.ToString();
+            Console.WriteLine(d);
+
+            //문자 to 정수형
+            string e = "12345";
+            int f = Convert.ToInt32(e);
+            Console.WriteLine(f);
+
+            //문자 to 소수형
+            string g = "1.232";
+            float h = float.Parse(g);
+            Console.WriteLine(h);  
+        }
+    }
+}
+
+{% endhighlight %}
+
+---
+`상수와 열거 형식`
+
+상수 [Constants], 열거 형식 [Enumerator] : 변수와 달리 안에 담긴 데이터를 절대 바꿀 수 없는 메모리 공간 이다.
+
+상수와 열거 형식을 변수 대신 사용하면 컴파일러가 소스코드를 컴파일 할때 프로그래머의 실수를 잡아 알려주고, 프로그램의 버그도 줄여 준다.
+
+상수 형식 : 프로그래머의 실수를 방지하기 위해 사용 한다.
+열거 형식 : 같은 범주에 속하는 여러개의 상수를 선언 할때 유용 하다. 열거 형식의 각 요소에 어떤 값도 주지 않았지만 열거 형식은 정수 데이터를 갖고 있음을 알 수 있다.
+
+상수 키워드  : const
+열거형 키워드: enum
+
+[상수형 code]
+
+{% highlight ruby %}
+using System;
+
+namespace BlogPosting
+{
+    class MainApp
+    {
+        static void Main(string[] args)
+        {
+            //const example
+            const int MAX_INT = 2147483647;
+            const int MIN_INT = -2147483647;
+            Console.WriteLine(MAX_INT);
+            Console.WriteLine(MIN_INT);
+        }
+    }
+
+}
+{% endhighlight %}
+
+[열거형 code]
+
+{% highlight ruby %}
+using System;
+
+namespace BlogPosting
+{
+    class MainApp
+    {
+        enum DialogResult { YES, NO, CANCEL, CONFIRM, OK }
+        static void Main(string[] args)
+        {
+            Console.WriteLine((int)DialogResult.YES);
+            Console.WriteLine((int)DialogResult.NO);
+            Console.WriteLine((int)DialogResult.CANCEL);
+            Console.WriteLine((int)DialogResult.CONFIRM);
+            Console.WriteLine((int)DialogResult.OK);
+
+        }
+    }
+}
+
+{% endhighlight %}
+
+`열거 변수가 아니고 열거 형식!`
+
+위의 예제에서 선언한 DialogResult는 변수가 아니고 새로운 형식이다.
+
+[열거 형식을 기반으로 변수로 만들고, 이를 사용 하는 예제 프로그램]
+
+{% highlight ruby %}
+
+using System;
+
+namespace BlogPosting
+{
+    class MainApp
+    {
+        enum DialogResult { HEAD=0, YES, NO, CANCEL, CONFIRM, OK , END}
+        static void Main(string[] args)
+        {
+            DialogResult result = DialogResult.YES;
+
+            if(result == DialogResult.YES)
+            {
+                Console.WriteLine("This is Yes");
+            }
+            else
+            {
+                Console.WriteLine("Re Search again");
+            }
+
+
+        }
+    }
+}
+
+{% endlight %}
+
+---
+`상수와 열거 형식`
