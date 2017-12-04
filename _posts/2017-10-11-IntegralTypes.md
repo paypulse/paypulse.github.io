@@ -613,5 +613,87 @@ namespace BlogPosting
 0이 아닌 비어 있는 변수, 즉, null 상태인 변수, 변수에게 할당된 메모리 공간을 비워 둘 수 있도록 Nullable 형식을 사용하면 된다. 참조 형식은 사용 할 수 없다.
 
 [Nullable 형식은 두가지 속성]
-1. HasValue
-2. Value
+1. HasValue : 해당 변수가 값을 갖고 있는지 또는 그렇지 않은지를 나타낸다.
+              - HasValue 속성이 False값을 갖고 있다면, 그 변수는 비어 있다는 의미
+2. Value    : 변수에 담겨 있는 값을 나타낸다.
+
+Nullable 형식을 사용 할때는 HasValue 속성을 확인 하거나, null과 같은지를 비교하여 변수가 비어 있는지를 사전 검사 하는 것이 필요 하다.  
+
+Nullable Type 선언 : int? 변수명 = null;
+
+{% highlight ruby %}
+using System;
+
+namespace BlogPosting
+{
+    class MainApp
+    {
+        static void Main(string[] args)
+        {
+            int? a = null;
+
+            Console.WriteLine(a.HasValue);
+            Console.WriteLine(a!= null);
+
+            //변수 a에 값을 대입 후
+            a = 3;
+            Console.WriteLine(a.HasValue);
+            Console.WriteLine(a != null);
+            Console.WriteLine(a.Value);
+
+        }
+    }
+}
+{% endhighlight %}
+
+---
+`Var 키워드`
+
+var 키워드를 사용하여, int, string 같은 명시적 형식 대신 var를 사용하여 변수를 선언하면, 컴파일러가 자동으로 해당 변수의 형식을 지정해 준다.
+
+※ var 키워드 사용법
+
+변수를 선언 하려면 반드시 선언과 동시에 초기화를 해줘야 한다. 왜냐하면 컴파일러 입장에서 데이터를 보고 형식을 결정 할 수 있기 때문이다.
+
+지역 변수로만 사용 할 수 있다. 왜냐하면 var 키워드로 필드를 선언 하면 컴파일러가 무슨 형식인지 파악 할 길이 없기 때문이다.
+
+{% highlight ruby %}
+using System;
+
+namespace BlogPosting
+{
+  class MainApp
+  {
+      static void Main(string[] args)
+      {
+          var a = 20;
+          Console.WriteLine("Type: {0}, Value: {1}", a.GetType(),a);
+
+          var b = 3.1414213;
+          Console.WriteLine("Type: {0}, Value: {1}", b.GetType(), b);
+
+          var c = "Hello, World";
+          Console.WriteLine("Type: {0}, Value: {1}", c.GetType(), c);
+
+          var d = new int[] {10,20,30};
+          Console.WriteLine("Type: {0}, Value: ", d.GetType());
+          foreach (var e in d)
+          {
+              Console.WriteLine("{0}", e);
+          }
+
+          Console.WriteLine();
+
+      }
+  }
+}
+
+{% endhightlight %}
+
+---
+`공용 형식 시스템`
+
+공용 형식 시스템 : 모두가 함께 사용하는 데이터 형식 체계
+공용 형식 시스템의 형식은 각 언어 에서 코드에 그대로 사용 할 수 있습니다.
+
+[클래스 이름]       [C# 형식]         [C++ 형식]         [비주얼 베이직 형식]
