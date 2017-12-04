@@ -510,6 +510,7 @@ namespace stringtonumber
 {% endhighlight %}
 
 ---
+
 `상수와 열거 형식`
 
 상수 [Constants], 열거 형식 [Enumerator] : 변수와 달리 안에 담긴 데이터를 절대 바꿀 수 없는 메모리 공간 이다.
@@ -612,3 +613,5 @@ namespace BlogPosting
 0이 아닌 비어 있는 변수, 즉, null 상태인 변수, 변수에게 할당된 메모리 공간을 비워 둘 수 있도록 Nullable 형식을 사용하면 된다. 참조 형식은 사용 할 수 없다.
 
 [Nullable 형식은 두가지 속성]
+1. HasValue
+2. Value
