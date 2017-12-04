@@ -709,4 +709,28 @@ namespace BlogPosting
     <td>unsigned char</td>
     <td>Byte</td>
   </tr>
+  <tr>
+    <td>System.SByte</td>
+    <td>sbyte</td>
+    <td>char</td>
+    <td>SByte</td>
+  </tr>
+  <tr>
+    <td>System.Int16</td>
+    <td>short</td>
+    <td>short</td>
+    <td>Short</td>
+  </tr>
+  <tr>
+    <td>System.Int32</td>
+    <td>int</td>
+    <td>int or long</td>
+    <td>Integer</td>
+  </tr>
+  <tr>
+    <td>System.Int64</td>
+    <td>long</td>
+    <td>int64 </td>
+    <td>Long</td>
+  </tr>
 </table>
