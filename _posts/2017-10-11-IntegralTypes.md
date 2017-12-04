@@ -806,3 +806,30 @@ namespace BlogPosting
     <td>String</td>
   </tr>
 </table>
+
+<b>공용 형식 시스템 예제</b>
+{% highlight ruby %}
+using System;
+
+namespace BlogPosting
+{
+    class MainApp
+    {
+        static void Main(string[] args)
+        {
+            System.Int32 a = 123;
+            int b = 456;
+
+            Console.WriteLine("a type:{0}, value:{1}", a.GetType().ToString(),a);
+            Console.WriteLine("b type:{0}, value:{1}", b.GetType().ToString(),b);
+
+            System.String c = "abc";
+            string d = "def";
+
+            Console.WriteLine("c type:{0}, value:{1}", c.GetType().ToString(),c);
+            Console.WriteLine("d type:{0}, value:{1}", d.GetType().ToString(),d);
+        }
+    }
+}
+
+{% endhighlight %}
