@@ -605,7 +605,7 @@ namespace BlogPosting
     }
 }
 
-{% endlight %}
+{% endhighlight %}
 
 ---
 `Nullable 형식`
