@@ -733,4 +733,76 @@ namespace BlogPosting
     <td>int64 </td>
     <td>Long</td>
   </tr>
+  <tr>
+    <td>System.UInt16</td>
+    <td>ushort</td>
+    <td>unsigned short</td>
+    <td>UShort</td>
+  </tr>
+  <tr>
+    <td>System.UInt32</td>
+    <td>uint</td>
+    <td>unsigned int or unsigned long</td>
+    <td>UInteger</td>
+  </tr>
+  <tr>
+    <td>System.UInt64</td>
+    <td>ulong</td>
+    <td>unsigned int64 </td>
+    <td>ULong</td>
+  </tr>
+  <tr>
+    <td>System.Single</td>
+    <td>float</td>
+    <td>float</td>
+    <td>Single</td>
+  </tr>
+  <tr>
+    <td>System.Double</td>
+    <td>double</td>
+    <td>double</td>
+    <td>Double</td>
+  </tr>
+  <tr>
+    <td>System.Boolean</td>
+    <td>bool</td>
+    <td>bool</td>
+    <td>Boolean</td>
+  </tr>
+  <tr>
+    <td>System.Char</td>
+    <td>char</td>
+    <td>wchar_t</td>
+    <td>Char</td>
+  </tr>
+  <tr>
+    <td>System.Decimal</td>
+    <td>decimal</td>
+    <td>Decimal</td>
+    <td>Decimal</td>
+  </tr>
+  <tr>
+    <td>System.IntPtr</td>
+    <td>없음</td>
+    <td>없음</td>
+    <td>없음</td>
+  </tr>
+  <tr>
+    <td>System.UIntPtr</td>
+    <td>없음</td>
+    <td>없음</td>
+    <td>없음</td>
+  </tr>
+  <tr>
+    <td>System.Object</td>
+    <td>object</td>
+    <td>Object*</td>
+    <td>Object</td>
+  </tr>
+  <tr>
+    <td>System.String</td>
+    <td>string</td>
+    <td>String*</td>
+    <td>String</td>
+  </tr>
 </table>
