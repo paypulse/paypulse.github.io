@@ -696,13 +696,9 @@ namespace BlogPosting
 공용 형식 시스템 : 모두가 함께 사용하는 데이터 형식 체계
 공용 형식 시스템의 형식은 각 언어 에서 코드에 그대로 사용 할 수 있습니다.
 
-{% hightlight ruby %}
 <tr>
   <th>클래스 이름</th>
   <th>C#  형식</th>
   <th>C++ 형식</th>
   <th>Visual Basic</th>
 </tr>
-
-
-{% endhighlight %}
