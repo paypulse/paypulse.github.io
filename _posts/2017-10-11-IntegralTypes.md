@@ -688,7 +688,7 @@ namespace BlogPosting
   }
 }
 
-{% endhightlight %}
+{% endhighlight %}
 
 ---
 `공용 형식 시스템`
