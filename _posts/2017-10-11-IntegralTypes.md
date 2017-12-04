@@ -697,24 +697,12 @@ namespace BlogPosting
 공용 형식 시스템의 형식은 각 언어 에서 코드에 그대로 사용 할 수 있습니다.
 
 {% hightlight ruby %}
-클래스 이름 			C# 형식 			C++ 형식 			비주얼 베이직 형식		
-System.Byte			byte			unsigned char 			Byte		
-System.SByte			sbyte			char 			SByte		
-System.Int16			short			short			Short		
-System.Int32			int			int or long 			Integer		
-System.Int64			long 			__int64			Long		
-System.UInt16			ushort			unsigned short			UShort		
-System.UInt32			uint			usinged int or unsigned long			UInteger		
-System.UInt64			ulong			unsigned __int64			ULong		
-System.Single			float 			float			Single		
-System.Double			double 			double 			Double		
-System.Boolean			bool			bool 			Boolean		
-System.Char			char			wchar_t			Char		
-System.Decimal			decimal			Decimal			Decimal		
-System.IntPtr			없음			없음			없음		
-System.UIntPtr			없음			없음			없음		
-System.Object			object			Object*			Object		
-System.String			string 			String*			String 		
+<tr>
+  <th>클래스 이름</th>
+  <th>C#  형식</th>
+  <th>C++ 형식</th>
+  <th>Visual Basic</th>
+</tr>
 
 
 {% endhighlight %}
