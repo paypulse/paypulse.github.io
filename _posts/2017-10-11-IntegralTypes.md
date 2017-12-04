@@ -697,8 +697,14 @@ namespace BlogPosting
 공용 형식 시스템의 형식은 각 언어 에서 코드에 그대로 사용 할 수 있습니다.
 
 <tr>
-  <th>클래스 이름</th>&nbps;
-  <th>C#  형식</th>&nbps;
-  <th>C++ 형식</th>&nbps;
-  <th>Visual Basic</th>&nbps;
+  <th>클래스 이름</th>
+  <th>C#  형식</th>
+  <th>C++ 형식</th>
+  <th>Visual Basic</th>
+</tr>
+<tr>
+  <td>System.Byte</td>
+  <td>byte</td>
+  <td>unsigned char</td>
+  <td>Byte</td>
 </tr>
