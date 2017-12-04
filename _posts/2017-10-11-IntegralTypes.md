@@ -806,7 +806,7 @@ namespace BlogPosting
     <td>String</td>
   </tr>
 </table>
-
+<br><br>
 <b>공용 형식 시스템 예제</b>
 {% highlight ruby %}
 using System;
