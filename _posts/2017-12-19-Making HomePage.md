@@ -31,4 +31,4 @@ Anyway, Dictionary more saids.
 SMTP is protocol which is sending from internet to email. TCP port number is 25.
 
 so, What?
-It is still caos. 
+It is still caos.
