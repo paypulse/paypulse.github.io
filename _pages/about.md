@@ -12,7 +12,7 @@ How am i made about Pay-Pulse solution.
 ### Contact us ==>
 [Email] : shinapp7@gmail.com <br>
 [Phone] : 010-5153-2163 <br>
-[WEB PAGE] : [www.pay-pulse.com](https://www.pay-pulse.com)
+[WEB PAGE] : [paypulse](https://www.pay-pulse.com)
 
 ---
 
