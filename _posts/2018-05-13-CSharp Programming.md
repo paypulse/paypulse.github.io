@@ -17,3 +17,6 @@ categories: CSharp
 {% for post in site.posts limit:1 %}
 <img src="https://paypulse.github.io/assets/images/virtualmachin.png" width="320" height="231"/>  
 {% endfor %}
+<br>
+프로세스 가상 머신? 그건또 뭘까? <br>
+[출처] : https://ko.wikipedia.org/wiki/%EA%B0%80%EC%83%81_%EB%A8%B8%EC%8B%A0#%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4_%EA%B0%80%EC%83%81_%EB%A8%B8%EC%8B%A0[1]
