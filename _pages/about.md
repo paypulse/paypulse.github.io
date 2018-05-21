@@ -6,7 +6,7 @@ avatar: true
 navigation: true
 ---
 This is Pay-Pulse tech blog. I will posting every day even at night. I will show you
-How am i made about Pay-Pulse solution.
+How will i make about Pay-Pulse solution.
 
 
 ### Contact us ==>
