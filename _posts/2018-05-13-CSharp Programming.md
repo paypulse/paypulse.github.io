@@ -19,4 +19,9 @@ categories: CSharp
 {% endfor %}
 <br>
 프로세스 가상 머신? 그건또 뭘까? <br>
-[출처] : https://ko.wikipedia.org/wiki/%EA%B0%80%EC%83%81_%EB%A8%B8%EC%8B%A0#%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4_%EA%B0%80%EC%83%81_%EB%A8%B8%EC%8B%A0[1]
+[출처] : https://ko.wikipedia.org/wiki/가상_머신#프로세스_가상_머신[1]
+프로세스 가상 머신들은 플랫폼에 독립적인 프로그램 실행 환경과 추상화를 제공하여 하나의 프로그램을 실행 하도록 설계되어 있다. <br>
+
+일반 네이티브 언어로 만들어진 프로그램들이 운영체제 에서 곧바로 실행되는 것과는 달리, .Net Framework 기반으로 만들어진 응용 프로그램들은 반드시 .Net Framework가 미리 설치된 환경에서만 실행된다.
+<br><br>
+즉,
