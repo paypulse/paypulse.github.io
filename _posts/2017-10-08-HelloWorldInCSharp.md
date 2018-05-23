@@ -2,7 +2,7 @@
 layout: post
 title:  "1.Hello, World!"
 date:   2017-10-08 10:59:21 +0700
-categories: CSharp
+categories: Language
 ---
 `Hello, World`
 

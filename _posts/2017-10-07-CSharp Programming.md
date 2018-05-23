@@ -2,7 +2,11 @@
 layout: post
 title:  "C Sharp programming"
 date:   2017-10-07 10:59:21 +0700
-categories: CSharp
+categories: Language
+---
+I am going to post about different language study. <br>
+
+
 ---
 `C# programming`
 

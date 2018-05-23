@@ -2,7 +2,7 @@
 layout: post
 title:  "C Sharp programming"
 date:   2017-12-03 10:59:21 +0700
-categories: CSharp
+categories: Language
 ---
 `Change the Study style`
 
