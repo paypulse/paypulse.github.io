@@ -2,7 +2,7 @@
 layout: post
 title:  ".NET Framework"
 date:   2018-05-13 10:59:21 +0700
-categories: CSharp
+categories: Language
 ---
 `.NET Framework`
 
@@ -68,4 +68,3 @@ Build : 소스 코드 파일들을 컴퓨터에서 실행 할 수 있는 소프�
 VM을 사용하면, VM 상의 추상적인 연산을 특정 하드웨어에 포함된 기능을 이용해 더 빨리 수행 할 수도 있다. <br>
 
 무슨 의미 일까? <br>
-  
