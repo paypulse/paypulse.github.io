@@ -5,8 +5,8 @@ permalink: /about/
 avatar: true
 navigation: true
 ---
-This is Pay-Pulse tech blog. I will posting every day even at night. I will show you
-How will i make about Pay-Pulse solution.
+This is Pay-Pulse tech blog. I am going to posting every day even at night.<br>
+This Blog will show you, How Pay-Pulse company growth.
 
 
 ### Contact us ==>
