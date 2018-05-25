@@ -66,3 +66,9 @@ Unity 화면 배치는 자유롭게 해도 되지만, 책에서는 2by3 레이�
 아.. 그런데 왜이렇게 오래 걸리지? 내 성질이 급한가? 다운로드 후! <br>
 <div class="blueFont"> UnityBook  -> Resources -> Models -> Player
 </div>를 프로젝트안에 Import 시켜 준다. <br>
+
+<div class="redFont">
+  ※ 유니티 패키지 오류 : 유니티 패키지가 설치가 되지 않는다면 <br>
+  1. 유니티가 실행 (Run) 모드 이다.<br>
+  2. 유니티 패키지 파일이 저장된 경로에 한글이 포함되어 있을때.
+</div><br>
