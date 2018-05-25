@@ -73,5 +73,4 @@ Unity 화면 배치는 자유롭게 해도 되지만, 책에서는 2by3 레이�
   2. 유니티 패키지 파일이 저장된 경로에 한글이 포함되어 있을때.
 </div><br>
 
-에셋 스토어안에 <div class="blueFont"> Skybox Volume2
-</div>를 임포트 하자. <br>
+에셋 스토어안에 <div class="blueFont"> Skybox Volume2 </div>를 임포트 하자. <br>
