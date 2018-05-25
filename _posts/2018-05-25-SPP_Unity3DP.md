@@ -16,7 +16,7 @@ categories: SPP
 자.. 그럼 이제 시작 해 볼까?
 
 ---
-<div class="redFont"> 목표 : SNG 3D 액션 게임을 만들어 보자!
+<div class="redFont"> 목표 : SNG 3D 액션 게임을 만들어서 App Store에 런칭 하기!
 </div><br>
 
 ---
@@ -39,4 +39,26 @@ categories: SPP
 7. 인벤토리 UI 및 데이터 저장 <br>
 
 ---
-1. 게임 개발 환경 설정  <br>
+1. 게임 개발 환경 설정 및 리소스를 내려 받자. <br>
+<br>
+프로젝트 명 : SpaceShooter <br>
+Template   : 3D 모드 <br>
+
+Unity 화면 배치는 자유롭게 해도 되지만, 책에서는 2by3 레이아웃으로 바꿔서 진행 한다.<br>
+프로젝트 뷰를 개발 처음 부터 체계적으로 관리 하는것이 프로젝트를 효율적으로 관리 하는 방법중 하나이다 <br>
+<br>
+책에 나온 폴더 명칭과 분류 기준을 사용 할 예정이다. 왜냐면, 너무 정리가 잘 되있어서 <br>
+그런데 전에 절대 경로가 있었던것 같았는데. 어쨌든 잘 정리 된것 같다. <br>
+<br>
+01. Scenes : 씬을 저장 한다. <br>
+02. Scripts: C# 스크립트를 저장한다. <br>
+03. Prefabs: 프리팹을 저장한다. <br>
+04. Images : 텍스쳐 이미지 및 머티리얼을 저장한다.<br>
+05. Models : 3D 모델을 저장한다. <br>
+06. Sounds : 오디오 파일을 저장 한다. <br>
+07. Animations : 애니메이션 컨트롤러 및 각종 애니메이션 클립을 저장한다. <br>
+
+<br>
+`캐릭터 모델을 임포트 하자!` <br>
+<div class="blueFont">Git Hub 저장소에서 다운 받자 : git clone https://github.com/IndieGameMaker/UnityBook
+</div><br>
