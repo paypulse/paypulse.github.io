@@ -60,5 +60,9 @@ Unity 화면 배치는 자유롭게 해도 되지만, 책에서는 2by3 레이�
 
 <br>
 `캐릭터 모델을 임포트 하자!` <br>
-<div class="blueFont">Git Hub 저장소에서 다운 받자 : git clone https://github.com/IndieGameMaker/UnityBook
+<div class="blueFont">Git Hub 저장소에서 다운 받자 :
+ git clone https://github.com/IndieGameMaker/UnityBook
 </div><br>
+아.. 그런데 왜이렇게 오래 걸리지? 내 성질이 급한가? 다운로드 후! <br>
+<div class="blueFont"> UnityBook  -> Resources -> Models -> Player
+</div>를 프로젝트안에 Import 시켜 준다. <br>
