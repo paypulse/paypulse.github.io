@@ -13,6 +13,7 @@ $text-color:       #4c4c4c;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
 
+
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
@@ -22,6 +23,11 @@ $content-width:    800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
+
+//User setting text
+
+
+
 
 // Use media queries like this:
 // @include media-query($on-palm) {
