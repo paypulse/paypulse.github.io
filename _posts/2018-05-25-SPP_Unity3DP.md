@@ -7,7 +7,7 @@ categories: SPP
 <h1> Small project : 3D Shooting Game </h1> <br>
 
 ---
-`[참고 책]` <br>
+`[참조 책]` <br>
 {% for post in site.posts limit:1 %}
 <img src="https://paypulse.github.io/assets/images/unityBook.png" width="444" height="550"/>  
 {% endfor %}
@@ -72,3 +72,6 @@ Unity 화면 배치는 자유롭게 해도 되지만, 책에서는 2by3 레이�
   1. 유니티가 실행 (Run) 모드 이다.<br>
   2. 유니티 패키지 파일이 저장된 경로에 한글이 포함되어 있을때.
 </div><br>
+
+에셋 스토어안에 <div class="blueFont"> Skybox Volume2
+</div>를 임포트 하자. <br>
