@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Small Project : Unity chapter 01"
+title:  "Unity3D로 게임 만들자 1탄"
 date:   2018-05-25 10:59:21 +0700
 categories: SPP
 ---
-<h1> Small project : Unity3D로 게임 만들자 1탄. </h1> <br>
+<h1> Small project : 3D Shooting Game </h1> <br>
 
 ---
 `[참고 책]` <br>
@@ -16,7 +16,7 @@ categories: SPP
 자.. 그럼 이제 시작 해 볼까?
 
 ---
-<div class="redFont"> 목표 : SNG 3D 액션 게임을 만들어서 App Store에 런칭 하기!
+<div class="redFont"> 최종 목표 : SNG 3D액션 게임을 만들어서 App Store에 런칭 하기!
 </div><br>
 
 ---
@@ -65,7 +65,7 @@ Unity 화면 배치는 자유롭게 해도 되지만, 책에서는 2by3 레이�
 </div><br>
 아.. 그런데 왜이렇게 오래 걸리지? 내 성질이 급한가? 다운로드 후! <br>
 <div class="blueFont"> UnityBook  -> Resources -> Models -> Player
-</div>를 프로젝트안에 Import 시켜 준다. <br>
+</div> Player 패키지를 프로젝트안에 Import 시켜 준다. <br>
 
 <div class="redFont">
   ※ 유니티 패키지 오류 : 유니티 패키지가 설치가 되지 않는다면 <br>
