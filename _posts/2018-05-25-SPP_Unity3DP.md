@@ -76,3 +76,32 @@ Unity 화면 배치는 자유롭게 해도 되지만, 책에서는 2by3 레이�
 <div class="blueFont">
 에셋 스토어에서 Skybox Volume2 다운로드 후 임포트 하자. 무료다 !</div><br>
 임포트 후에 Images 폴더에 옮겨 준다.<br>
+
+---
+2. 게임의 배경이 되는 스테이지 제작!<br>
+
+예전에는 Box를 가지고 했던 기억이 있지만, Quad 모델을 사용 한다. <br>
+
+Quad란?<br>
+[사전적 의미] : 여러가지 의미가 있으나, 4인실, 4개짜리 물건을 의미 한다. <br>
+Quad model은 2개의 삼각형 , 4개의 정점으로 구성된 단순한 3D 모델이다. <br>
+
+<div class="blueFont">Quad를 배치 한다 !!
+</div><br>
+
+※Transform 컴포넌트의 Position, Rotation 속성 <br>
+`Position`<br>
+X : 0, Y : 0, Z : 0 <br>
+`Rotation`
+X : 90, Y : 0,Z : 0 <br>
+
+씬뷰에 배치된 모든 게임 오브젝트(GameObject)의 이름은 직관적인 이름으로 바꿔야 편하다. <br>
+폴더명, 프로젝트 명, 변수명도 알아 보기 쉽고, 직관적인 이름이여야 나중에 바꾸거나 고치기 쉬운거랑 같은 맥락이다.
+<br>
+
+<div class="blueFont">현재 Quad를 Floor란 이름으로 바꾼다.
+</div><br>
+
+<b>Capsule</b>을 추가 해준다. <br>
+Capsule을 생성하고 Capsule의 <b>Position</b>의 속성을 (0,1,0)으로 설정 한다.<br>
+ 
