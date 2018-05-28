@@ -74,6 +74,5 @@ Unity 화면 배치는 자유롭게 해도 되지만, 책에서는 2by3 레이�
 </div><br>
 
 <div class="blueFont">
-에셋 스토어에서 Skybox Volume2 다운로드 후 임포트 하자. 무료다 !
-</div><br>
+에셋 스토어에서 Skybox Volume2 다운로드 후 임포트 하자. 무료다 !</div><br>
 임포트 후에 Images 폴더에 옮겨 준다.<br>
