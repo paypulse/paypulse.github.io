@@ -92,8 +92,8 @@ Quad model은 2개의 삼각형 , 4개의 정점으로 구성된 단순한 3D �
 
 ※Transform 컴포넌트의 Position, Rotation 속성 <br>
 `Position`<br>
-X : 0, Y : 0, Z : 0 <br>
-`Rotation`
+X : 0, Y : 0, Z : 0 <br><br>
+`Rotation`<br>
 X : 90, Y : 0,Z : 0 <br>
 
 씬뷰에 배치된 모든 게임 오브젝트(GameObject)의 이름은 직관적인 이름으로 바꿔야 편하다. <br>
