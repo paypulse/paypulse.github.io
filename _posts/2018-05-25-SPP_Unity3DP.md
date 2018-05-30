@@ -112,3 +112,9 @@ Capsule이 사람이라고 본다면, Quad는 지형에 해당 되겠지? <br>
 
 ---
 <h2>Texture</h2><br>
+텍스쳐란?<br>
+3D 모델의 표면에 매핑 시킬 이미지 파일을 지칭 한다.<br>
+[출처] : https://3dscanexpert.com/3d-scan-uv-texture-remap-c4d/ <br>
+{% for post in site.posts limit:1 %}
+<img src="https://paypulse.github.io/assets/images/TextureEx.png" width="444" height="265"/>  
+{% endfor %}<br>
