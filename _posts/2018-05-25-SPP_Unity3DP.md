@@ -92,9 +92,11 @@ Quad model은 2개의 삼각형 , 4개의 정점으로 구성된 단순한 3D �
 
 ※Transform 컴포넌트의 Position, Rotation 속성 <br>
 `Position`<br>
-X : 0, Y : 0, Z : 0 <br><br>
+X : 0, Y : 0,  Z : 0 <br><br>
 `Rotation`<br>
-X : 90, Y : 0,Z : 0 <br>
+X : 90, Y : 0, Z : 0 <br>
+`Scale`<br>
+X : 50, Y : 50,Z : 50 <br>
 
 씬뷰에 배치된 모든 게임 오브젝트(GameObject)의 이름은 직관적인 이름으로 바꿔야 편하다. <br>
 폴더명, 프로젝트 명, 변수명도 알아 보기 쉽고, 직관적인 이름이여야 나중에 바꾸거나 고치기 쉬운거랑 같은 맥락이다.
@@ -105,3 +107,8 @@ X : 90, Y : 0,Z : 0 <br>
 
 <b>Capsule</b>을 추가 해준다. <br>
 Capsule을 생성하고 Capsule의 <b>Position</b>의 속성을 (0,1,0)으로 설정 한다.<br>
+
+Capsule이 사람이라고 본다면, Quad는 지형에 해당 되겠지? <br>
+
+---
+<h2>Texture</h2><br>
