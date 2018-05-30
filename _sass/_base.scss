@@ -91,7 +91,8 @@ h1, h2, h3, h4, h5, h6 {
 h1{font-size:$big-font-size; text-align: $big-font-align;}
 .redFont{color:$font-color-red;}
 .blueFont{color:$font-color-blue;}
-h2{font-size: $mid-font-size;}
+h2{font-size: $mid-font-size; font-weight: bold;}
+
 
 
 /**

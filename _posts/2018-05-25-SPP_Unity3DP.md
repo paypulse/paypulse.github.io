@@ -118,3 +118,11 @@ Capsule이 사람이라고 본다면, Quad는 지형에 해당 되겠지? <br>
 {% for post in site.posts limit:1 %}
 <img src="https://paypulse.github.io/assets/images/TextureEx.png" width="444" height="265"/>  
 {% endfor %}<br>
+
+유니티는 텍스처의 원본을 보존한 상태로 다양한 압축 포맷으로 용량을 줄이는 기능을 제공 하므로 원본 텍스트를 불러와 사용 할 수 있다. <br>
+
+<h2>※ 텍스처는 가로와 세로의 크기가 2ⁿ 형태일때 압축을 지원 하며 속도가 빠르다.</h2><br>
+<div class="redFont">
+  특히! 모바일 플랫폼에서 속도를 향상 시키고 싶다면 반드시! 2ⁿ(POT : Power Of Two)<br>
+  형태의 텍스처를 사용해야 한다.
+</div><br>
