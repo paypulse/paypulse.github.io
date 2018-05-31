@@ -86,3 +86,6 @@ categories: SUS
 {% for post in site.posts limit:1 %}
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/W9YSNpkPJI4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 {% endfor %}<br>
+
+`인터뷰 준비하기`<br>
+필드 리서치에 해당 한다.
