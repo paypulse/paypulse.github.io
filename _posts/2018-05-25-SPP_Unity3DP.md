@@ -128,3 +128,10 @@ Capsule이 사람이라고 본다면, Quad는 지형에 해당 되겠지? <br>
 </div><br>
 
 <h2>텍스쳐 임포트</h2><br>
+지난번에 Git에서 다운 받은 리소스 <br>
+<div class="blueFont">
+  Resources -> Texture -> Stages 폴더를  04.Images폴더로 옮긴다.
+</div> <br>
+Drag and Drop ---> 끝 <br>
+
+<h2>텍스처의 해상도 조절 </h2><br>
