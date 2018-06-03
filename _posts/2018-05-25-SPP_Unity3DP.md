@@ -211,7 +211,7 @@ Floor 게임 오브젝트 네 군데 모서리에 배치할 벽을 프리팹으�
   GameObject -> 3D Object -> Cube 생성!! <br>
   Cube의 이름 : Wall <br>
   Transform 속성 :<br>
-  Position : 0,3,0 <br>
-  Rotation : 0,0,0 <br>
-  Scale    : 50,6,1 <br>
+    `Position` : 0,3,0 <br>
+    `Rotation` : 0,0,0 <br>
+    `Scale`    : 50,6,1 <br>
 </div><br>
