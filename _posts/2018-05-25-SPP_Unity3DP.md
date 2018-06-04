@@ -215,3 +215,18 @@ Floor 게임 오브젝트 네 군데 모서리에 배치할 벽을 프리팹으�
     `Rotation` : 0,0,0 <br>
     `Scale`    : 50,6,1 <br>
 </div><br>
+
+마찬가지로 Wall에 Texture를 입히자 <br>
+`Wall Material` <br>
+1. 이름   : Wall <br>
+2. 셰이더 : Mobile/Diffuse<br>
+3. Texture: 04.Images -> Stages -> wall <br>
+4. Tiling : x : 10
+<div class="blueFont">
+Standard가 아닌 Mobile/Diffuse를 선택한 이유는? <br>
+Standard는 모바일 플랫폼에서 무겁기 때문이다.<br>
+</div><br>
+Wall 게임 오브젝트를 선택 하고, Mash Renderer ->  Materials -> Element 0 에 연결 <br>
+
+---
+<h2>Wall GameObject로 프리팹을 생성 하자.</h2><br>
