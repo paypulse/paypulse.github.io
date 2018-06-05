@@ -230,3 +230,76 @@ Wall 게임 오브젝트를 선택 하고, Mash Renderer ->  Materials -> Elemen
 
 ---
 <h2>Wall GameObject로 프리팹을 생성 하자.</h2><br>
+<div class="blueFont">
+  1. 03.Prefabs -> Create -> Prefab <br>
+  2. Prefab 이름 : Wall <br>
+  3. Hierachy view의 Wall을 Prefab에 Drag and Drop 한다.
+</div><br>
+
+---
+<h2>Prefab을 복제 하자!</h2><br>
+
+<div class="redFont">
+  게임 오브젝트,프리팹,각종 리소스는 무론 Scene도 복사할 수 있다.
+</div><br>
+사각면이니까 벽4개 만들어야지.<br>
+Duplicate 눌러도 되지만, 단축키를 이용하자,현대인 이잖아 도구를 써야지 <br>
+[단축키] : <br>
+맥 => Command + D <br>
+윈도우 => Ctrl + D <br>
+복제한 Wall Prefab들을 각 모퉁이에 배치 해준다. <br>
+
+---
+<h2>스내핑?</h2><br>
+사전적 의미 : 딱 소리 내는, 딱 소리 내는, 딱 하고 부러뜨리다.<br>
+Unity에서 Snapping의 의미 : 3차원 공간을 다루다 보면, 여러 오브젝트를 다루는데 빈틈이 생기기 마련인데, Unity 3D에서는 이러한 빈틈을 최대한 줄여주고자 snap 기능을 제공한다. <br>
+
+즉, 딱 들어 맞게 해준다. 이런 의미인가 보다. ㅋ<br>
+
+Vertex Snapping을 이용해서 쉽고 편리 하게 화면을 배치 할 수 있다. <br>
+
+※ Vertex Snapping 방법 : 키보드 V키를 누른 상태에서 마우스 커서를 특정 정점 근처로 옮기면, Transform축의 해당 정점으로 이동한다. <br>
+
+그런데 난 잘 모르겠다. 솔직히 항상 눈대중인가. <br>
+
+---
+<h2>Lighting</h2><br>
+조명을 효율적으로 사용하느냐에 따라 게임의 분위기나 완성도가 달라질 정도로 중요한 요소이지만, 그렇다고 너무 많이 사용하게 되면, 조명 처리를 위한 렌더링 과부하가 생긴다. 그렇기 때문에 최소한 양으로 시각 효과를 내야 한다. <br>
+
+<div class="redFont">
+  유니티는 게임 속도를 저하 하지 않고, 실시간 조명효과를 낼 수 있는 Lightmapping 및 Light Probe 기능을 제공 한다.
+</div><br>
+전에 Lightingmapping 인가? 적용해본적 있었는데, Build 할때 조금 시간 걸렸던것 같았었는데. <br>
+
+※유니티가 제공 하는 조명 종류 <br>
+1. Directional Light <br>
+  - 태양과 같은 조명, 위치는 어디에 있어도 상관 없고, 빛을 비추는 각도에 따라 그림자의 방향과 길이가 달라진다.<br>
+2. Point Light <br>
+  - 백열 전구와 같은 조명, Point Light가 위치한 좌표를 중점으로 주변으로 퍼져나가는 조명이기 때문에 빛이 미치는 범위 Range 속성이 있다. <br>
+3. Spot Light <br>
+  - 연극 무대의 독백 조명, 빛이 뻗어 나가는 각도를 조절 할 수 있는 Spot Range 속성이 있다. <br>
+4. Area Light <br>
+  - 사각형 형태의 조명으로 한쪽 면에서 빛을 발하는 조명으로, 라이트 맵을 베이크 해야만 확인 할 수 있다. 유니티에서 제공하는 4개의 조명중에서 Area Light만 실시간 조명이 아니며, 간접 조명으로 사용 한다. <br>
+
+※Light 추가 방법 <br>
+<div class="blueFont">
+  GameObject -> Light
+</div><br>
+
+Scene이 만들어지면, 기본적으로 Directional Light는 생성되어 있다. <br>
+
+※실시간 Light 조명 끄는 방법<br>
+실시간 전역 조명을 끄고 베이크를 하는 것이 유니티 에디터의 속도를 떨어 뜨리지 않는다. ---> 그래서 전에 Build 속도가 느렸었나 보다. <br>
+
+<div class="blueFont">
+  [Window] -> [Lighting] -> [Setting]을 선택하면, Light view가 열린다. Auto Generate 옵션을 언체크 하면 실시간 라이트 매핑 처리를 하지 않는다.
+</div><br>
+
+---
+<h2>하늘 표현 방식</h2><br>
+아마 WebGL 하면서 도전하지 않을까 싶지만, 전에 Directx로 3D개발 할땐, 하늘과 배경을 사각 박스 안에 넣어서 그런지 이음새 처리가 만족 스럽지 않았었는데. 원형 돔 형식으로 처리를 하고 싶다고 생각만 했지. 구현해 본적은 없다. <br>
+
+※게임에서 하늘을 표현하는 대표적인 방식<br>
+1. Skybox : 카메라가 볼수 있는 하늘을 여섯방면 (left, front, back, top, bottom)의 이미지를 Cube 형태로 배치해서 표현 <br>
+
+2. SkyDome : 돔 형태의 매쉬에 하늘의 이미지 
