@@ -123,10 +123,10 @@ Common Language Runtime <br>
 닷넷 프레임 워크를 설치하면, 닷넷 프레임 워크의 가상 머신인 CLR이 설치되어, 닷넷 프레임워크 기반으로 만들어진 응용 프로그램을 실행 될 수 있는 환경이 윈도우 운영체제에 마련된다.
 <br>
 {% for post in site.posts limit:1 %}
-<img src="https://paypulse.github.io/assets/images/netFrameT1.png" width="585" height="202"/>  
+<img src="https://paypulse.github.io/assets/images/netFrameT1.png" width="700" height="234"/>  
 {% endfor %}
 {% for post in site.posts limit:1 %}
-<img src="https://paypulse.github.io/assets/images/netFrameT2.png" width="585" height="149"/>  
+<img src="https://paypulse.github.io/assets/images/netFrameT2.png" width="700" height="199"/>  
 {% endfor %}
 <br>
 사용자가 C#으로 개발된 어플리케이션을 실행하면, 내부적으로 컴파일러에 의해 생성된 CLR이 로드 되고, CLR은 IL코드를 로드해서 실행 한다.
