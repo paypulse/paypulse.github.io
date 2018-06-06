@@ -324,9 +324,9 @@ Scene이 만들어지면, 기본적으로 Directional Light는 생성되어 있�
 ---
 <h2>프로시저럴 스카이박스</h2><br>
 유니티 5부터 Skybox의 구현이 3가지 형태로 확장이 되었다. ---> 그렇군 <br>
-1. 6 sided와 Cubemap <br>
-2. Panoramic <br>
-3. Procedural <br>
+1. 6 sided <br>
+2. Procedural <br>
+3. Cubemap <br>
 
 ※Procedural Skybox의 특징 : 하늘의 색상, 대기 농도, 노출(밝기), 태양의 위치와 크기 등을 설정 할 수 있다. <br>
 유니티 프로젝트 생성후 보이는 스카이 박스가 프로시저럴 스카이 박스 이다.<br>
@@ -336,5 +336,19 @@ Scene이 만들어지면, 기본적으로 Directional Light는 생성되어 있�
   1. 04.Images/Materials 폴더에 new Material 추가 <br>
   2. Material 이름 : SkyboxPC <br>
   3. Material shader 속성 : [Skybox] -> [Procedural] <br>
-  4. 
 </div><br>
+
+게임에서 해가 뜨고 지는 시스템을 도입한 경우 태양 이미지의 위치가 태양의 고도에 따라서 위치가 같이 변경 돼야 한다. <br>
+라이팅 뷰의 Sun Source 속성에 Directional Light를 드래그 해서 연결 한다. <br>
+
+---
+<h2>큐브 맵 스카이박스</h2><br>
+큐브 맵은 여섯 방면 스카이박스와 마찬가지로 6장 텍스처가 필요 하며 주면 환경을 반사하는 효과에 주로 사용 한다. <br>
+큐브 맵은 6sided 스카이 박스와 마찬가지로 6장의 텍스처가 필요 하며, 주변 환경을 반산하는 효과를 주로 사용 한다.<br>
+
+----
+6Side Skybox의 드로우콜 소모량 <br>
+6 Side Skybox는 6개의 텍스처를 사용하므로 6드로우콜을 소모하지만 큐브맵 스카이박스와 프로시저럴 스카이박스는 1드로우콜만 소모하기 때문에 좋은 대안이 될 수 있다.<br>
+또한 SkyDome 역시 1장의 텍스처를 사용 할 경우 1드로우 콜만 소모하기 때문에 드로우콜을 낮출 수 있다는 장점이 있다. 하지만, SkyDome 방식은 게임의 특성에 따라 카메라가 볼수 있는 최대 거리를 제한 해야 할때는 SkyDome 방식을 적용 하는 것은 적합 하지 않을 수 있다. <br>
+
+---
