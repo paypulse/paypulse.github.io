@@ -302,4 +302,39 @@ Scene이 만들어지면, 기본적으로 Directional Light는 생성되어 있�
 ※게임에서 하늘을 표현하는 대표적인 방식<br>
 1. Skybox : 카메라가 볼수 있는 하늘을 여섯방면 (left, front, back, top, bottom)의 이미지를 Cube 형태로 배치해서 표현 <br>
 
-2. SkyDome : 돔 형태의 매쉬에 하늘의 이미지 
+2. SkyDome : 돔 형태의 매쉬에 하늘의 이미지 텍스처를 입혀서 구현한다. <br>
+
+---
+<h2>6방면 스카이 박스</h2><br>
+<div class="blueFont">
+  1. 04.Images/Materials 폴더에 new Material 추가 <br>
+  2. Material 이름 : Skybox <br>
+  3. Material shader 속성 : [Skybox] -> [6 sided] 로 바꾼다. <br>
+  4. 에셋 스토어에서 내려 받은 Skybox Volume2 원하는 이미지를 고른다. <br>
+  5. 6 Sided -> Front, Back,Left,Right,Up, Down에 차례로 매칭 해준다.<br>
+  6. Skybox 니까 Down이 없을 수도 있다.
+  7. Exposure 속성은 Skybox 텍스처의 노출을 설정 하는것으로 밝기를 조절 할 수 있다.<br>
+  8. Rotation 속성은 Y축을 기준으로 시계방향 [+방향]으로 회전 시킬수 있다.<br>
+  9. Window -> Lighting -> Setting ---> Lighting view가 열린다.
+  10. Lighting view ---> Evironment -> Skybox Material -> texture를 넣은 material을 추가 해준다.
+</div><br>
+
+나는 `DeepSpaceBlue` 으로 선택!<br>
+
+---
+<h2>프로시저럴 스카이박스</h2><br>
+유니티 5부터 Skybox의 구현이 3가지 형태로 확장이 되었다. ---> 그렇군 <br>
+1. 6 sided와 Cubemap <br>
+2. Panoramic <br>
+3. Procedural <br>
+
+※Procedural Skybox의 특징 : 하늘의 색상, 대기 농도, 노출(밝기), 태양의 위치와 크기 등을 설정 할 수 있다. <br>
+유니티 프로젝트 생성후 보이는 스카이 박스가 프로시저럴 스카이 박스 이다.<br>
+
+기본 값인 Default-Skybox는 여러가지 설정 값을 수정 할 수 없으므로 별도의 프로시저럴 스카이 박스 머티리얼을 만들어야 한다. <br>
+<div class="blueFont">
+  1. 04.Images/Materials 폴더에 new Material 추가 <br>
+  2. Material 이름 : SkyboxPC <br>
+  3. Material shader 속성 : [Skybox] -> [Procedural] <br>
+  4. 
+</div><br>
