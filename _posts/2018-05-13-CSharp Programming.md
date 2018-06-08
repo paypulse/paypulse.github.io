@@ -136,7 +136,7 @@ CLR은 언어에 상관없이 컴파일러에 의해 만든 중간언어를 실�
 닷넷 CLR에서 중간 언어 :CIL (Common Intermediate Language)라고 한다. <br>
 이를 줄여 IL 코드 OR MSIL 코드라고 한다. <br>
 {% for post in site.posts limit:1 %}
-<img src="https://paypulse.github.io/assets/images/comLanguage.png" width="900" height="181"/>  
+<img src="https://paypulse.github.io/assets/images/comLanguage.png" width="1420" height="286"/>  
 {% endfor %}
 
 ---
@@ -144,3 +144,35 @@ CLR은 언어에 상관없이 컴파일러에 의해 만든 중간언어를 실�
 
 CTS :Common Type System  <br>
 닷넷 호환언어가 지켜야할 타입의 표준 규격을 정의한 것이다. <br>
+(if): 새로운 언어를 만들어 닷넷 프레임워크 상에서 실행 하고 싶다면, CTS규약 한도내에서 구현 할 수 있다.<br>
+즉, 닷넷 호환 언어는 CTS의 한계를 넘어 구현 할 수 없다. <br>
+C#과 Visual Basic, .Net 언어는 CTS가 정의한 타입 시스템의 일부를 자신들의 언어 사양에 맞게 구현 하고 있다.<br>
+
+<div class="blueFont">
+만약 , CTS전체를 활용해 프로그램을 만들고 싶다면, IL언어를 사용하거나 CTS 전체 규격을 표현한 언어를 새롭게 만들어야 한다.
+</div><br>
+
+---
+<h2>공용 언어의 사양</h2><br>
+
+CLS : Common Language Specification <br>
+닷넷 호환 언어가 지켜야할 최소한의 언어 사양을 정의 한 것이다. <br>
+(if) 직접 닷넷 호한 언어를  만들고 싶다면, CTS 전체를 구현할 필요는 없지만, 적어도 CLS에 명시된 사양만큼은 완벽하게 구현 해야 한다. <br>
+
+(ex) C#에서는 부호 없는 형식을 지원 한다. 이는 CTS에 정의 돼 있기 떼문에, C#에서도 정의 할 수 있다. <br>
+하지만 CLS에서는 unsigned 타입을 강제화 하지 않았다. 이는 C#에서 unsigned 타입이 구현 됐다고 해서 다른 언어 에서도 unsigned 타입이 구현 됬다고 보장 할 수 없다. <br>
+
+<div class="redFont">
+닷넷 호환 언어 끼리는 서로 사용 할 수도 있고, 상속 받을 수도 있다.
+</div><br>
+C# 언어 에서 unsigned 타입을 사용하는 함수를 정의 했다고 가정 했을때, unsigned를 지원하지 않는 다른 언어 에서 이 함수를 사용하면, 호환성 문제가 발생 하게 된다. 그렇기 때문에 타 언어와 섞는 프로그램을 만들때, 외부에서 사용할 기능에 대해서 CLS를 준수 해야 한다. <br>
+
+<div class="blueFont">
+CLS의 두가지 측면 : <br>
+1. 모든 닷넷 호환 언어가 CLS에서 정의한 사양 만큼 구현해야 한다. <br>
+2. 닷넷 호환 언어 끼리 호출해야 하는 경우 그 기능에 한해서 CLS를 만족 시키도록 작성 <br>
+</div>
+{% for post in site.posts limit:1 %}
+<img src="https://paypulse.github.io/assets/images/ctsandcls.png" width="318" height="340"/>  
+{% endfor %}
+<br>
