@@ -6,6 +6,15 @@ categories: Language
 ---
 `.NET Framework`
 
+[참조]
+
+{% for post in site.posts limit:1 %}
+<img src="https://paypulse.github.io/assets/images/csharpBook2.png" width="480" height="626"/>  
+{% endfor %}
+
+
+
+---
 .NET Framework 는 2002년에 마이크로소프트에서 발표한 응용 프로그램 개발 환경으로서
 프로세스 가상 머신에 속한다.
 
@@ -176,3 +185,20 @@ CLS의 두가지 측면 : <br>
 <img src="https://paypulse.github.io/assets/images/ctsandcls.png" width="318" height="340"/>  
 {% endfor %}
 <br>
+
+---
+<h2>Meta Data</h2><br>
+"누구 누구씨 그 파일 메타 데이터 가지고 와 !"<br>
+<div class="blueFont">
+데이터를 위한 데이터를 의미 한다.
+</div><br>
+{% for post in site.posts limit:1 %}
+<img src="https://paypulse.github.io/assets/images/metaEx1.png" width="426" height="584"/>  
+{% endfor %}
+QNAmaker.png라는 이미지 데이터 안의 데이터의 너비, 높이 등의 데이터가 메타데이터에 해당한다. <br>
+
+<div class="redFont">
+프로그래밍 언어에서 개발자가 구현한 코드가 데이터에 해당하고, 해당 코드의 성격을 설명해주는 별도의 데이터를 메타데이터라고 한다.
+</div><br>
+
+CLR에서 동작하는 실행 파일은 완전하게 자기 서술 적인
