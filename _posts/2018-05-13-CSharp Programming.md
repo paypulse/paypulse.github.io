@@ -117,3 +117,30 @@ Common Language Runtime <br>
 사용자가 C#으로 개발된 어플리케이션을 실행하면, 내부적으로 컴파일러에 의해 생성된 CLR이 로드 되고, CLR은 IL코드를 로드해서 실행 한다.
 
 ---
+<h2>닷넷 호환 언어</h2><br>
+IL과 같은 중간 언어는 어느 하나의 프로그래밍 언어에 종속된건 아니다.<br>
+CLR은 언어에 상관없이 컴파일러에 의해 만든 중간언어를 실행 할 수 있다. <br>
+<div class="blueFont">
+중간 언어로 번역하는 언어를 닷넷 호환언어 (NET-Compliant Language)라고 하며, C#언어는 단지 그러한 언어중에 하나일뿐이다.
+</div><br>
+
+<div class="redFont">
+닷넷 호환언어의 장점 :
+</div>
+ 중간언어[IL] 코드의 결과물을 공유 하기 때문에, 상호 호출이 가능하다.
+- C#으로 만든 코드를 F#에서 사용 할 수 있고, 심지어 다른 언어로 만든 클래스 까지도 상속 받을 수 있다.<br>
+
+---
+<h2>공통 중간 언어</h2><br>
+자바 VM의 중간 언어 : 바이트 코드 (Byte code)<br>
+닷넷 CLR에서 중간 언어 :CIL (Common Intermediate Language)라고 한다. <br>
+이를 줄여 IL 코드 OR MSIL 코드라고 한다. <br>
+{% for post in site.posts limit:1 %}
+<img src="https://paypulse.github.io/assets/images/comLanguage.png" width="900" height="181"/>  
+{% endfor %}
+
+---
+<h2>공용 타입 시스템</h2><br>
+
+CTS :Common Type System  <br>
+닷넷 호환언어가 지켜야할 타입의 표준 규격을 정의한 것이다. <br>
