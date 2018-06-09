@@ -4,10 +4,9 @@ title:  ".NET Framework"
 date:   2018-05-13 10:59:21 +0700
 categories: Language
 ---
-`.NET Framework`
+<h1> .NET Framework </h1> <br>
 
-[참조]
-
+`[참조]`
 {% for post in site.posts limit:1 %}
 <img src="https://paypulse.github.io/assets/images/csharpBook2.png" width="480" height="626"/>  
 {% endfor %}
@@ -201,4 +200,6 @@ QNAmaker.png라는 이미지 데이터 안의 데이터의 너비, 높이 등의
 프로그래밍 언어에서 개발자가 구현한 코드가 데이터에 해당하고, 해당 코드의 성격을 설명해주는 별도의 데이터를 메타데이터라고 한다.
 </div><br>
 
-CLR에서 동작하는 실행 파일은 완전하게 자기 서술 적인
+CLR에서 동작하는 실행 파일은 메타 데이터를 제공 하고 있으며, 외부에서는 이러한 정보를 Reflection이라는 기술을 통해 사용 할 수 있다.<br>
+
+C#언어로 컴파일된 EXE/DLL 파일에도 메타데이터가 담겨 있다. 찾아 보자! <br>
