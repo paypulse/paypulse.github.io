@@ -239,10 +239,57 @@ ML KIT 은 변곡점이다. <br>
 사용자에 능동적으로 다가가기에 변곡점에 해당한다.<br>
 ML Kit을 이용해 좋은 서비스를 많이 만들자<br>
 
+<div class="blueFont">
 그렇구나. 뭐가 어려워 참... 구글이 다 해주는데...구글이 개발자고 나머지는 그냥 코더지 설치 복붙해! <br>
 그러니까 쫄지 말자. 이런 지원 해주는 API나 플랫폼에 의존하지 말고 개발하는 개발자가 되어야 하는데 <br>
-꼭! 돌려 보자<br>
+꼭! 돌려 보자
+</div><br>
 
 ---
 <h2>Microservices in the Cloud with Kubernetes Istio</h2><br>
 [강사] :이정운, Google <br>
+
+Microservice란?<br>
+서비스 단위로 어플리케이션 구성, 서비스는 독립적으로 배포 일 확장 가능<br>
+
+MSA란?<br>
+MicroServices Architecture<br>
+장애를 고려한 설계<br>
+각각의 DB에 분산 데이터 관리를 해야 한다.<br>
+어떻게 이 MSA를 효율적으로 관리 할것인가? <br>
+<br>
+다양한 시도 <br>
+1. Spring Cloud 를 만든다. <br>
+2. Spring Cloud Neffrix를 이용한다. <br>
+
+Docker<br>
+쉽게 vm으로 보면 된다.<br>
+code를 container로 본다<br>
+docker의 문제점을 해결하기 위해 Kubernetes를 사용 한다.<br>
+<br>
+Kubernetes - container Orchestration<br>
+code -> container -> Orchestration ---> 이렇게 해주는게 Kubernetes라고 한다. <br>
+
+Service Mesh<br>
+커뮤니케이션을 보다 안정적이고 안전적으로 관찰하고 관리가 가능하게 하기 위하여 서비스간 커뮤니케이션 을 처리 하는 기능이다. <br>
+[구현된 제품] : Istio
+Istio<br>
+Orchestration ->Management and Communition <br>
+이게 Service mesh가 하는 역할이다. <br>
+
+Sidecar 패턴 <br>
+서비스 프록시가 필요 하고, sidecar 패턴 형태로 배포 할 수있다. <br>
+코드를 다시 작성하거나. 아키텍처 변경없이 배포 할 수 있다. <br>
+어플리케이션 개발자가 실제 운영에 대한 개념을 가지고 있어야 하는게 그것이 service mesh에 해당한다.
+
+어플리케이션과 인프라의 분리 <br>
+어플리케이션에는 정말 필요 한로직이 있고, 운영에 관한것들을 service mesh라고 한다. <br>
+개발에서 운영의 결합을 제거 하는것이다.<br>
+운영에 장애가 났을때 어떻게 처리 할 것인지를 끊어 내자는것이 service mesh에 해당한다.<br>
+코드를 변경하지 않고 서비스 동작및 트래픽 흐름을 변경하자. <br>
+
+정확히 각각의 Role에 맞게 개발 하자는것이 service mesh가 가진 장점에 해당한다. <br>
+sidecar pattern으로 설정이 들어 가고, Application을 바꾸지 않아도 Microservice를 할 수 있다. <br>
+
+아... 이번건 좀 어려웠다. Docker에 대해 말만 들어 봤지. 거의 사용해본적이 없는데 그래도 중요 한건, 그냥 Google Service를 써라... 이런것 같다. 심지어 모니터링까지. <br>
+직접 서비스에 추가할때 좀 위험하지 않을까 싶다. 돈이 필요 하겠지 흠... <br>
