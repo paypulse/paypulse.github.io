@@ -7,10 +7,21 @@ categories: SUS
 <h1>GoogleExteneded I/O</h1><br>
 
 ---
+{% for post in site.posts limit:1 %}
+<img src="https://paypulse.github.io/assets/images/mariaDB.png" width="440" height="484"/>  
+{% endfor %}
+<br>
+
 늦은 줄 알고 서둘러 11시까지 왔는데 다행히 늦지 않았다. 잠 좀 줄이자.
-
 Track A, Track B, Track C 로 나뉘어서 강의를 진행 한다.
+Track A는 안드로이드 관련 인것 같았고, Track B는 TensorFlow 같았고, Track C는 웹앱관련 강의 같다. <br>
+여러가지를 섞어 들을 필요가 있다. 듣고 싶은 주제를 마음대로 옮겨가면서 듣다 보니 정말 강의들이 지루하지 않고 너무 신선 하다.<br>
 
+그래도 이런데 와서 세미나를 들으면서 느낀점은 그래도 지금 하고 있는 공부 방향이 다행 스럽게도 미래 지향 적이라는걸 깨달았다. <br>
+
+그냥 꾸준히 그대로 진행 하고, 개발하자. <br>
+
+구글에서 티셔츠도 주고, 선그리도 주고, 스티커도 주고 ㅋㅋㅋ올해 목표가 꼭 이루어지게 노력하자. 열심히 뼈를 깍는 고통을 감내 할 줄 알아야 작은 성과에도 큰 감동이 몰려 온다. ^_^ 열심히 하자.<br>
 
 ---
 <h2>Key note</h2><br>
@@ -137,18 +148,88 @@ WebGL에 대한 지식이 필요 ㅋㅋㅋ,webGL은 기본이다. <br>
 <h2>안드로이드 P 업데이트 - Auto, TV, Wear</h2><br>
 [강사] :김원일, Google<br>
 
+Android Auto<br>
+1. 메시징 앱 - 음성만으로 메세지를 확인하고 답장을 할 수 있다.<br>
+2. 미디어 앱 - 구글 어시스턴스를 통해 어플 사용이 가능하다. <br>
+<br>
+어시스턴스를 사용해서 검색할 수 있는 기능이 추가 되었다.<br>
+참 좋은 세미나다. 이러한 기능을 사용 하고 싶다면, Google API를 찾아서 쓰세요. <br>
+데스트탑 헤드 유닛의 기능을 제공하고있다. <br>
+TV는 역시 컨텐츠! <br>
+컨텐츠 1st UX란?<br>
+홈안에서 모든 내용을 확인 하고, 바로 플레이 할 수 있게 , 사용자가 쉽고 빠르게 컨텐츠를 선택하고 파악할 수 있게 제공을 해주고 있다 <br>
+채널의 이름과 로고를 구성하기 위한 함수를 제공 하고 있다. <br>
+안타 깝다. 이렇게 사용하기 쉽게 API 모두 제공해서 사용 할 수 있다는게, 솔직히 이런 API 직접 개발해서 사용해야 하는건 아닌지 싶다. 그게 진짜 프로그래머지.<br>
 
+구글 어시스턴트를 이용해서 구글 TV에서 검색을 하면 컨텐츠에 대한 다양한 정보가 제공이 된다. <br>
 
+위의 모든건 구글 어시스턴트에 모두 나와 있다.<br>
 
+android wear by google update<br>
+Stand by buket?<br>
+머신러닝 기능을 제공 하고 있다. <br>
+<br>
+코틀린 DSL을 이용한 간편한 위치 페이스 개발 <br>
+앞으로 나올 예정이다. 현재는 구현 중이다. <br>
+600라인을 15라인으로 구현 될 수 있다. <br>
+
+1. 안드로이드 Auto 업데이트 - 메세징 구현, 미디어 탐색 기능, 검색 기능 구현 <br>
+2. content's 1st UX <br>
+3. wear에서는 어떻게 배터리 성능을 구현할지 <br>
+4. 코틀린 DSL <br>
+
+해당 강의에 관한 google utube 동영상이 있다. <br>
 
 
 ---
 <h2>모바일 개발자를 위한 머신러닝</h2><br>
 [강사] :남상균, NBT <br>
 
+우리에게 머신러닝이라면 엄청 나게 먼 느낌이 들지만,이젠 Google에서 API를 지원해주나 보다.<br>
+Mobile first to AI first <br>
+Mobile은 Default고 AI를 구축해야 한다. <br>
+
+Solving problems with AI for everyone.<br>
+
+Deep learning Vs machine learning 기술이 굉장이 Hot해졌다. <br>
+
+TensorFlow<br>
+Deep learning and machine learning을 쉽게 구축하기 위해 <br>
+
+On-Device ML의 필요성 <br>
+낮은 지연시간, 서버 호출 없음, 오프라인에서 동작 기능, 데이터가 디바이스 측게 보관,... <br>
+하지만, 메모리 사양에 제약이 있거고, 컴퓨팅 타워가 적고, 배터리 소모를 낮추기 위해 에너지 절감 <br>
+
+Apple에 Core ML모델이 있다. <br>
+
+TensorFlow Light <br>
+모바일에 특화된 경량화된 Model이다.<br>
+학습보다는 추론만 가능하게 구현할 수 있다. <br>
+플랫폼에 상관　없이 사용 할 수 있다. <br>
+
+ML KIT <br>
+서비스 하기 힘들었던 TensorFlow Light의 단점을 보안하기 위한 서비스이다. <br>
+Firebase 위에 올라가서 개발해진다.
+하지만, ML Kit은 프로젝트를 올려서 쉽게 구현 할 수 있게 되어 있다. <br>
+Android, IOS 모두 지원 하는 장점이 있다. 기본 API와  커스텀 모델 <br>
+
+기본 API <br>
+1. 이미지 라벨 지정 <br>
+2. 텍스트 인식 <br>
+3. 얼굴 감지 : 감정도 표시를 해준다. <br>
+4. 바코드 스캔 <br>
+5. 랜드마크 인식 <br>
+6. 스마트 회신 (제공 예정) <br>
+
+커스텀 모델 <br>
+1. 동적 모델 다운로드 : 파이어 베이스를 이용해서 <br>
+2. 파이어 베이스 원격 설정을 통한 A/B 테스트 <br>
+3. 모델 변환과 압축 (제공 예정) <br>
+
+실제 ML Kit이 어떻게 동작하는지는 직접 돌려 보는게 중요하다 <br>
 
 
 
 ---
-<h2>Microservices in</h2><br>
-[강사] :
+<h2>Microservices in the Cloud with Kubernetes Istio</h2><br>
+[강사] : 이정운, Google <br>
