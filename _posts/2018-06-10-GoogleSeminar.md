@@ -8,7 +8,7 @@ categories: SUS
 
 ---
 {% for post in site.posts limit:1 %}
-<img src="https://paypulse.github.io/assets/images/mariaDB.png" width="440" height="484"/>  
+<img src="https://paypulse.github.io/assets/images/googleSeminar.png" width="480" height="626"/>  
 {% endfor %}
 <br>
 
