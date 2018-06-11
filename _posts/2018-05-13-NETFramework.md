@@ -192,7 +192,7 @@ CLS의 두가지 측면 : <br>
 데이터를 위한 데이터를 의미 한다.
 </div><br>
 {% for post in site.posts limit:1 %}
-<img src="https://paypulse.github.io/assets/images/metaEx1.png" width="426" height="584"/>  
+<img src="https://paypulse.github.io/assets/images/metaEx.png" width="426" height="584"/>  
 {% endfor %}
 QNAmaker.png라는 이미지 데이터 안의 데이터의 너비, 높이 등의 데이터가 메타데이터에 해당한다. <br>
 
