@@ -207,32 +207,15 @@ C#언어로 컴파일된 EXE/DLL 파일에도 메타데이터가 담겨 있다. 
 
 [출처] : http://www.csharpstudy.com/Practical/Prac-reflection2.aspx <br>
 
----
-<h1>Reflection</h1><br>
-[출처] : https://docs.microsoft.com/ko-kr/dotnet/csharp/programming-guide/concepts/reflection <br>
-        http://latedreamer.blogspot.com/2017/01/c-reflection.html <br>
 
-<br>
-리플렉션 객체는 런타임에 형식 정보를 얻는데 이용된다. 이 기능을 사용해서 실행 중에 객체의 형식 이름, 프로퍼티 , 메소드, 필드, 이벤트 목록을 모두 볼 수 있고, 해당 메소드를 호출 하거나 필드, 프로퍼티에 접근 하는 것도 가능 하다.
+---
+<h2>Assembly, Module, Menifest</h2><br>
+C#으로 프로그램을 만드는 경우 대개 EXE 또는 DLL 파일을 만들게 된다. <br>
 <div class="redFont">
-프로그램의 메타 데이터에 접근 할 수 있도록 해주는 이 클래스는 System.Reflection namespace에 정의 되어있다.
+  기계어와  1:1 대응 되는 프로그래밍 언어인 어셈블리와 이름이 같으므로, 혼동할 수 있지만, 닷넷 프로그래밍 에서 특별한 언급이 없다면, 어셈블리는 실행 파일 (EXE,DLL)을 의미 한다.
 </div><br>
 
-리플렉션의 개요<br>
-1. 프로그램 메타 데이터의 특성에 액섹스 해야 하는 경우 <br>
-2. 어셈블리에서 형식을 검사하고 인스턴스화 하려는 경우 <br>
-3. 런타임에 새 형식을 빌드 하려는 경우 System.Reflection.Emit의 클래스를 사용<br>
-4. 런타임에 바인딩을 수행하고 런타임에 생성된 형식의 메서드에 액세스 하려는 경우. <br>
-나는 엄청 잘 정리된 테이블이나 config 파일로 확인 할 수 있는 줄 알았는데 그게 아닌가보다. <br>
-
-`[예제]`<br>
-[출처] :https://www.tutorialspoint.com/csharp/csharp_reflection.htm <br>
-<h2>Viewing Metadata</h2><br>
-System.Reflection 클래스의 MemberInfo객체는 초기화가 필요하다. <br>
-타겟 클래스의 객체를 정의 해야 한다. <br>
-Attribute에 대한 이해가 필요하다.그래도 일단 예제를 본다면 <br>  
-`[Example]` <br>
-
-{% highlight ruby %}
-
-{% endhighlight %}
+{% for post in site.posts limit:1 %}
+<img src="https://paypulse.github.io/assets/images/assembly1.png" width="682" height="394"/>  
+{% endfor %}
+<br>
