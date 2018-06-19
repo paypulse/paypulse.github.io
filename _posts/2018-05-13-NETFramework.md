@@ -207,6 +207,7 @@ C#언어로 컴파일된 EXE/DLL 파일에도 메타데이터가 담겨 있다. 
 
 [출처] : http://www.csharpstudy.com/Practical/Prac-reflection2.aspx <br>
 
+Reflection과 Attribute는 함께 정리 되어야 하기에 일단 Check <br>
 
 ---
 <h2>Assembly, Module, Menifest</h2><br>
@@ -229,4 +230,27 @@ netmodule  : 메니페스트 데이터를 포함하지 않는 모듈
 
 ---
 <h2>공용 언어 기반구조</h2><br>
-공용 언어 기반구조 (CLI : Common Language Infrastructure)는 마이크로소프트에서 ECMA 표준으로 제출한 공개 규약이다. CLI, CTS 명세를 포함 하고 있으며, 중ㅇ간 언어에 대한 코드 정의, 메타데이터와
+공용 언어 기반구조 (CLI : Common Language Infrastructure)는 마이크로소프트에서 ECMA 표준으로 제출한 공개 규약이다. CLI, CTS 명세를 포함 하고 있으며, 중간 언어에 대한 코드 정의, 메타데이터와 메타데이터를 포함하는 이진 파일의 구조까지 표준 사양으로 기술 하고 있다. <br>
+
+{% for post in site.posts limit:1 %}
+<img src="https://paypulse.github.io/assets/images/cliandClr.png" width="508" height="534"/>  
+{% endfor %}
+<br>
+CLI 규격을 마이크로소프트에서 구현한 실체가 바로 CLR이다. <br>
+
+---
+<h2>공용 언어 런타임</h2><br>
+CLR 은 CLI사양을 따르는 가장 대표적인 VM으로서 마이크로소프트가 개발해 윈도우 운영체제용으로만 배포되고 있다.<br>
+
+<div class="blueFont">
+CLR에는 두가지 큰 기능 :
+</div>
+1. 중간 언어를  JIT compiler를 이용해 기계어로 변환한다.<br>
+2. 가비지 수집기(GC :Garbage Collector)를 제공해 동적 메모리 할당 및 회수를 지원 <br>
+
+`JIT compiler란?` <br>
+[참고] :https://ko.wikipedia.org/wiki/JIT_%EC%BB%B4%ED%8C%8C%EC%9D%BC <br>
+wiki에 나와 있는데로, JIT (Just In Time) 컴파일러 또는 동적 번역은 프로그램을 실제 실행 하는 시점에 기계어로 변역하는 컴파일 기법이다. 이 기법은 프로그램의 실행 속도를 빠르게 하기 위해 사용된다.<br>
+
+CLR은 프로세스내에서 공개된 API에 의해 로드될 수 있다. <br>
+ 
