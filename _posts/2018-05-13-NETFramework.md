@@ -255,4 +255,6 @@ wiki에 나와 있는데로, JIT (Just In Time) 컴파일러 또는 동적 번�
 CLR은 프로세스내에서 공개된 API에 의해 로드될 수 있다. <br>
 즉, 윈도우 개발 환경에서 동작하는 기존 네이티브 응용 프로그램에서 CLR을 내장하는 것이 가능하다. <br>
 
-CLR을 로드 하는 w3wp.exe : 윈도우에 포함된 웹 서버인 IIS(Internet Information Services)는 기존의 w3wp.exe 프로세스에 CLR을 자동으로 로드할 수 있는 기능을 추가 했다. <br>
+CLR을 로드 하는 w3wp.exe : 윈도우에 포함된 웹 서버인 IIS(Internet Information Services)는 기존의 w3wp.exe 프로세스에 CLR을 자동으로 로드할 수 있는 기능을 추가 했다. 이로써 개발자는 명시적으로 CLR을 로드 하는 코드를 작성 하지 않고도 웹 어플리케이션을 닷넷언어로 만들 수 있다.<br>
+
+CLR을 로드하는 SQL 서버 :마이크로 소프트의 SQL 서버는 CLR을 로드해서 내장 프로시저를 작성 할 수 있게 한다. 또한
