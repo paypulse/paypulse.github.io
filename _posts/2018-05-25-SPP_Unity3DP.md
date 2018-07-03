@@ -352,3 +352,70 @@ Scene이 만들어지면, 기본적으로 Directional Light는 생성되어 있�
 또한 SkyDome 역시 1장의 텍스처를 사용 할 경우 1드로우 콜만 소모하기 때문에 드로우콜을 낮출 수 있다는 장점이 있다. 하지만, SkyDome 방식은 게임의 특성에 따라 카메라가 볼수 있는 최대 거리를 제한 해야 할때는 SkyDome 방식을 적용 하는 것은 적합 하지 않을 수 있다. <br>
 
 ---
+<h2>3D 모델을 불러 오자!</h2><br>
+모델을 불러 왔는데 텍스쳐가 깨졌다. 그럴땐 당황하지 말고, Import Materials에 check를 해준다.<br>
+{% for post in site.posts limit:1 %}
+<img src="https://paypulse.github.io/assets/images/import1.png" width="383" height="553"/>  
+{% endfor %}
+
+Player 객체를 Drag and Drop 후 <br>
+<div class="blueFont">
+  Transform의 Position 속성을 (0,0,0)으로 설정
+</div><br>
+
+---
+<h2>Component</h2><br>
+유니티는 component 기반 개발 방법론을 지원 한다. <br>
+<div class="blueFont">
+Component 개발 방법 론이란? 독립적인 기능 단위로 component를 제작해 필요한 기능을 조립 하는 방식이다.
+이런 방식의 가장 큰 장점은 컴포넌트의 재사용이 가능하여 생산성이 장점이다.
+</div><br>
+
+---
+<h2>캐릭터를 controll 할 script를 작성 하자!!</h2><br>
+
+<div class="redFont">
+  PlayerCtrl 이란 스크립트를 만들자!!
+</div><br>
+ 스크립트 명과 클래스명은 동일 해야 한다. <br>
+
+ ---
+ <h2>유니티에서 사용 되는 함수 목록</h2>
+1. Awake <br>
+  - 스크립트가 실행 될때 한번만 호출되는 함수다. <br>
+  - 주로 게임의 상태 값 또는 변수의 초기화에 사용한다. <br>
+  - Start 함수가 호출 되기 전에 맨 먼저 호출 된다. <br>
+  - 스크립트가 비활성화 돼 있어도 실행 된다. <br>
+  -코루틴으로 실행 불가 <br>
+2. Start <br>
+  - Update 함수가 호출 되기 전에 한번만 호출 된다. <br>
+  - 스크립트가 활성화 돼 있어야 실행 된다. <br>
+  - 다른 스크립트의 모든 Awake가 모두 다 실행된 이후에 실행된다. <br>
+  - 코루틴으로 실행 가능 <br>
+3. Update <br>
+  - 프레임 마다 호출 되는 함수로 주로 게임의 핵심 로직을 작성한다. <br>
+  - 스크립트가 활성화돼 있어야 실행 된다. <br>
+4. LateUpdate <br>
+  - 모든 Update 함수가 호출되고 나서 한번씩 호출 된다. <br>
+  - Update 함수에서 전처리가 끝난 후 실행해야 하는 로직에 사용한다. <br>
+  - 카메라 이동 로직에 주로 사용하는 함수다. <br>
+  - 스크립트가 활성화 돼 있어야 실행된다. <br>
+5. FixedUpdate <br>
+  - 물리 엔진의 시뮬레이션 계산 주기로 기본 값은 0.02초이다. <br>
+  - 발생하는 주기가 일정하다. <br>
+6. OnEnable <br>
+  - 게임 오브젝트 또는 스크립트가 활성화됐을때 호출 된다. <br>
+  - 이벤트 연결시 사용한다. <br>
+  - 코루틴 사용 불가 <br>
+7. OnDisable <br>
+  - 게임 오브젝트 또는 스크립트가 비활성화됐을때 호출된다. <br>
+  - 이벤트 연결을 종료할때 사용한다. <br>
+  - 코루틴 사용 불가 <br>
+8. OnGUI <br>
+  - 레거시 GUI 관련 함수를 사용할때 사용 한다.
+
+  <div class="redFont">
+    솔직히 정리 안하는 것보다는 정리 하는게 낫다. 일단은 프로젝트 하면서 자주 사용하는게 최선인것 같다.
+  </div><br>
+
+----
