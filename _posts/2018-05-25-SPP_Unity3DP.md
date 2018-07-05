@@ -420,3 +420,9 @@ Component 개발 방법 론이란? 독립적인 기능 단위로 component를 �
 
 ----
 <h2>키보드 입력 값을 받아 오자. </h2><br>
+
+<div class="blueFont">
+유니티에서 키조합에 관한 정의는 InputManager에서 관리 한다.
+</div><br>
+[Edit] -> [project setting] -> [input] 에서 확인 할 수 있다.<br>
+ 
