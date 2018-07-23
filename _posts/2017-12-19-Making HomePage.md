@@ -32,3 +32,8 @@ SMTP is protocol which is sending from internet to email. TCP port number is 25.
 
 so, What?
 It is still caos.
+
+
+
+-----
+전체 div 를 100%로 준다면 width, height 값을 %로 줘서 뒤에 auto를 붙여줘서 해상도를 맞춰준다.
