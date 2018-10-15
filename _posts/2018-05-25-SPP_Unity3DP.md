@@ -425,4 +425,23 @@ Component 개발 방법 론이란? 독립적인 기능 단위로 component를 �
 유니티에서 키조합에 관한 정의는 InputManager에서 관리 한다.
 </div><br>
 [Edit] -> [project setting] -> [input] 에서 확인 할 수 있다.<br>
- 
+
+---
+<h2>스크립트를 적용해 보자.</h2><br>
+
+<div class="blueFont">
+Public  접근 지시자로 선언한 변수는 다른 프로그래밍 언어와 마찬가지로 다른 스크립트에서 접근 할 수 있다.
+</div><br>
+접근 지시자가 public인 변수는 인스펙터 뷰에서 설정한 값이 스크립트에서 지정한 값보다 우선 순위가 높다. <br>
+
+
+---
+<h2>컴포넌트 캐시 처리 </h2><br>
+<div class="blueFont">
+Update 함수는 프레임(Frame) 마다 한번씩 호출 되는 함수로써 항상 최적화에 주의를 기울여야 한다.
+</div><br>
+예를 들어 , 게임이 실행되는 디바이스가 30 프레임 (fps) 일 경우 Update 함수는 1초에 30번 호출 된다. <br>
+
+Update 함수에서 접근 해야 할 컴포넌트는 Awake 함수나 Start 함수에서 미리 변수에 할당한 후에 Update 함수에서 사용 해야 한다. <br>
+
+---
