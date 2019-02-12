@@ -28,6 +28,12 @@ I will send my career file. (shinapp7@gmail.com)
 
 Individual business , April 3 2017.
 
+Unfortunately, My own company had closed for youngtommorrow that is kind of government project to the young person who entered the company until 2 year. But, I am Okay.
+Me and Paypulse are same. so, my developing is also paypulse developing .
+
+
+
+
 ---
 ## Where is the Pay-pulse company.
 
@@ -35,3 +41,6 @@ We are located in
  2, Toegye-ro 36-gil, Jung-gu, Seoul, Republic of Korea
 
  zip code : 04626
+
+I will be back ! see you soon .
+maybe, I will upload video file like a UTube things.
